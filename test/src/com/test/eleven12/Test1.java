@@ -1,10 +1,10 @@
-package com.test;
+package com.test.eleven12;
 
 /**
  * @author zangye03@gmail.com
  * @date 2019/11/12 16:34
  */
-public class test1 {
+public class Test1 {
     public static void main(String[] args){
         System.out.println("静夜思");
         System.out.println("床前明月光，疑是地上霜。");
