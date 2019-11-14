@@ -2,11 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven13/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven13/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/com/test/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/com/test/eleven12/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven12/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven13/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven13/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven12/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven12/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven13/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven13/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven13/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven13/Test2.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +66,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.23244782" />
     <property name="project.structure.side.proportion" value="0.63369966" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,13 +80,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test2">
-    <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven13.Test1" />
+  <component name="RunManager" selected="Application.Test18">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.zhouce.Test1" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven13.*" />
+          <option name="PATTERN" value="com.test.eleven.zhouce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,25 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.Test1" />
+    <configuration name="Test18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.zhouce.Test18" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven12.Test1" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.eleven12.*" />
+          <option name="PATTERN" value="com.test.eleven.zhouce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,11 +108,37 @@
       </method>
     </configuration>
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven13.Test2" />
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.zhouce.Test2" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven13.*" />
+          <option name="PATTERN" value="com.test.eleven.zhouce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.zhouce.Test6" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.eleven.zhouce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.zhouce.Test7" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.eleven.zhouce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,9 +148,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test18" />
+        <item itemvalue="Application.Test7" />
+        <item itemvalue="Application.Test6" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1 (1)" />
-        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
@@ -129,6 +171,12 @@
       <workItem from="1573545031856" duration="3263000" />
       <workItem from="1573613134538" duration="5838000" />
       <workItem from="1573625094978" duration="862000" />
+      <workItem from="1573695048000" duration="7788000" />
+      <workItem from="1573714480438" duration="334000" />
+      <workItem from="1573714849989" duration="7225000" />
+      <workItem from="1573723511349" duration="57000" />
+      <workItem from="1573723616497" duration="23000" />
+      <workItem from="1573723682534" duration="3241000" />
     </task>
     <servers />
   </component>

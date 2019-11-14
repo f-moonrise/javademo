@@ -1,4 +1,4 @@
-package com.test.eleven13;
+package com.test.eleven.eleven13;
 
 import java.util.Scanner;
 
