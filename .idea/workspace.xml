@@ -2,39 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven12/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven13/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven13/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven12/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven12/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven13/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven13/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven13/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/com/test/eleven/eleven13/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/META-INF/test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/eleven12/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/eleven13/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/eleven13/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/eleven14/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/eleven14/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/eleven14/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/eleven14/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/eleven14/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/eleven14/Test6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/com/test/eleven/zhouce/Test9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/eleven12/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/eleven13/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/eleven13/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/eleven14/Test6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/com/test/eleven/zhouce/Test9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +81,12 @@
   </component>
   <component name="ProjectId" id="1TVUchOx9S0KT4ynW2hqLmoApOy" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/neuedu/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,6 +97,11 @@
     <property name="project.structure.proportion" value="0.23244782" />
     <property name="project.structure.side.proportion" value="0.63369966" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,6 +212,7 @@
       <workItem from="1573723511349" duration="57000" />
       <workItem from="1573723616497" duration="23000" />
       <workItem from="1573723682534" duration="3241000" />
+      <workItem from="1573800604493" duration="294000" />
     </task>
     <servers />
   </component>
