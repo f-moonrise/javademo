@@ -6,6 +6,15 @@ package com.test.eleven.zhouce;
  */
 public class Test9 {
     public static void main(String[] args){
-
+        new Test9().go();
+    }
+    public void go(){
+        Runnable r=new Runnable(){
+            public void run(){
+                System.out.print("foo");
+            }
+        };
+        Thread t=new Thread(r);
+        t.start();
     }
 }
