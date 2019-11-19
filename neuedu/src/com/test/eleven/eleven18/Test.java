@@ -65,7 +65,7 @@ public class Test {
                     System.out.println("请输入注销的用户名:");
                     int um2 = sc.nextInt();
 
-                    int k = detory(um2,arr);
+                    int k = detory(um2,arr,arr1);
                     if(k == 1){
                         System.out.println("用户注销成功！");
                     }else {
@@ -180,7 +180,7 @@ public class Test {
     }
 
     //3.用户注销
-    public static int detory(int uname, int[] arr){
+    public static int detory(int uname, int[] arr,int[] arr1){
         //判断传来的数据是否合法
         if(uname<=0){
             return -1;
@@ -192,10 +192,11 @@ public class Test {
                 if(uname == arr[i]){
                     //注销成功
                     arr[i]=0;
+                    arr1[i]=0;
                     return 1;
                 }
             }else{
-                //登录失败
+                //注销失败
                 break;
             }
         }
