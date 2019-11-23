@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SmartIM/debug/smartqq_2019-11-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SmartIM/info/smartqq_2019-11-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven20/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven20/DateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven20/QianShi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven20/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven20/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven21/LJTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven21/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/FuFen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/RunTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/BlueRune.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/Epigraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/GreenRune.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/OrangeRune.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce2/Anamil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce2/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,13 +78,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QianShi">
-    <configuration name="QianShi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven20.QianShi" />
+  <component name="RunManager" selected="Application.RunTest">
+    <configuration name="LJTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven21.LJTest" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven20.*" />
+          <option name="PATTERN" value="com.test.eleven.eleven21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven18.Test" />
+    <configuration name="RunTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven22.runeland.RunTest" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven18.*" />
+          <option name="PATTERN" value="com.test.eleven.eleven22.runeland.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.zhouce2.Test" />
+      <module name="neuedu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.eleven.zhouce2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,11 +119,11 @@
       </method>
     </configuration>
     <configuration name="Test1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven19.Test1" />
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven22.runeland.Test1" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven19.*" />
+          <option name="PATTERN" value="com.test.eleven.eleven22.runeland.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,25 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven20.Test1" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven22.Test1" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven15.Test3" />
-      <module name="neuedu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven15.*" />
+          <option name="PATTERN" value="com.test.eleven.eleven22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QianShi" />
-        <item itemvalue="Application.Test1 (2)" />
+        <item itemvalue="Application.RunTest" />
         <item itemvalue="Application.Test1 (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.LJTest" />
+        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +184,11 @@
       <workItem from="1574156210086" duration="1373000" />
       <workItem from="1574219025282" duration="5409000" />
       <workItem from="1574227818064" duration="15789000" />
+      <workItem from="1574297815171" duration="24770000" />
+      <workItem from="1574381239207" duration="2356000" />
+      <workItem from="1574404242994" duration="7007000" />
+      <workItem from="1574417498836" duration="601000" />
+      <workItem from="1574471210755" duration="25643000" />
     </task>
     <servers />
   </component>
@@ -210,6 +223,16 @@
           <url>file://$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven20/QianShi.java</url>
           <line>239</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce2/Test.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven18/Test1.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
