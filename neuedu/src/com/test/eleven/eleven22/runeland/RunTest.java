@@ -27,14 +27,6 @@ public class RunTest {
     //  开始模块
         kaishi();
 
-
-        //  打印蓝色铭文
-        //   showb();
-        //  打印绿色铭文
-        //   showg();
-        //  打印橙色铭文
-        //   showo();
-
     //  main方底部
     }
 
@@ -52,6 +44,7 @@ public class RunTest {
 
     //  打印用户和铭文
     public static void showbang(){
+//        int level=0;
         for(int i=0;i<userz.length;i++){
             for(int j=0;j<3;j++){
                 for(int k=0;k<10;k++){
@@ -60,6 +53,7 @@ public class RunTest {
                             if(user[i]!=null&&fw[j][k]!=null){
                                 System.out.print(user[i].uname);
                                 System.out.println(fw[j][k]);
+//                                level = level + fw[j][k];
                             }
                         }
                     }
@@ -141,7 +135,8 @@ public class RunTest {
                     break;
                 }else{
                     String s = "用户:" + user[i].uname;
-                    System.out.println(s);
+                    String s1 = " 密码:" + user[i].pwd;
+                    System.out.println(s + s1);
                 }
             }
         }
@@ -212,6 +207,7 @@ public class RunTest {
 
     //  用户登录
     public static void login(){
+        boolean key = false;
         System.out.println("##################");
         System.out.println("欢迎来到登录页面！");
         Scanner in = new Scanner(System.in);
@@ -225,11 +221,18 @@ public class RunTest {
             if(user[i]!=null&&user[i].uname.equals(uname)&&user[i].pwd.equals(pwd)){
                 System.out.println("登录成功！");
                 option();
-                break;
-            }else {
-                System.out.println("登录失败，退回到初始页面。");
-                break;
+                key = true;
+//                break;
             }
+//            else {
+//                System.out.println("登录失败，退回到初始页面。");
+//                break;
+//            }
+        }
+
+        while (key){
+            System.out.println("登录失败，退回到初始页面。");
+            key = false;
         }
     }
 
@@ -638,6 +641,7 @@ public class RunTest {
         System.out.println("请输入你想选择的铭文？");
         System.out.println("分别有blue、green、orange三种铭文");
         System.out.println("注:输入baochun存储用户和铭文信息");
+        System.out.println("注:输入showbang输出用户和铭文信息");
         System.out.println("注:输入over返回的符文大陆模块");
         Scanner in = new Scanner(System.in);
         String fs = in.next();
@@ -649,9 +653,13 @@ public class RunTest {
             optiono();
         }else if(fs.equals("baochun")){
             bang();
-            showbang();
         }else if(fs.equals("over")){
             kaishi();
+        }else if(fs.equals("showbang")){
+            showbang();
+        }else{
+            System.out.println("输入错误，请重新选择:");
+            option();
         }
     }
 
