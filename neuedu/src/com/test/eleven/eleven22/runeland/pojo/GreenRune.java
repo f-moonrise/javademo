@@ -6,18 +6,18 @@ package com.test.eleven.eleven22.runeland.pojo;
  */
 public class GreenRune extends Epigraph{
 
-    private double shengMing;//最大生命
-    private double huiXue;//每秒回血
-    private double adHurt;//物理攻击
-    private double adFang;//物理防御
-    private double adChuan;//物理穿透
-    private double apHurt;//法术攻击
-    private double apXiXue;//法术吸血
-    private double apFang;//法术防御
-    private double apChuan;//法术穿透
-    private double baoJil;//暴击率
-    private double adSpeed;//攻击速度
-    private double lengQue;//冷却
+    private int shengMing;//最大生命
+    private int huiXue;//每秒回血
+    private int adHurt;//物理攻击
+    private int adFang;//物理防御
+    private int adChuan;//物理穿透
+    private int apHurt;//法术攻击
+    private int apXiXue;//法术吸血
+    private int apFang;//法术防御
+    private int apChuan;//法术穿透
+    private int baoJil;//暴击率
+    private int adSpeed;//攻击速度
+    private int lengQue;//冷却
 
     public String getFname() {
         return fname;
@@ -43,103 +43,103 @@ public class GreenRune extends Epigraph{
         this.level = level;
     }
 
-    public double getShengMing() {
+    public int getShengMing() {
         return shengMing;
     }
 
-    public double getHuiXue() {
+    public int getHuiXue() {
         return huiXue;
     }
 
-    public double getAdHurt() {
+    public int getAdHurt() {
         return adHurt;
     }
 
-    public double getAdFang() {
+    public int getAdFang() {
         return adFang;
     }
 
-    public double getAdChuan() {
+    public int getAdChuan() {
         return adChuan;
     }
 
-    public double getApHurt() {
+    public int getApHurt() {
         return apHurt;
     }
 
-    public double getapXiXue() {
+    public int getapXiXue() {
         return apXiXue;
     }
 
-    public double getApFang() {
+    public int getApFang() {
         return apFang;
     }
 
-    public double getApChuan() {
+    public int getApChuan() {
         return apChuan;
     }
 
-    public double getBaoJil() {
+    public int getBaoJil() {
         return baoJil;
     }
 
-    public double getAdSpeed() {
+    public int getAdSpeed() {
         return adSpeed;
     }
 
-    public double getLengQue() {
+    public int getLengQue() {
         return lengQue;
     }
 
-    public void setShengMing(double shengMing) {
+    public void setShengMing(int shengMing) {
         this.shengMing = shengMing;
     }
 
-    public void setHuiXue(double huiXue) {
+    public void setHuiXue(int huiXue) {
         this.huiXue = huiXue;
     }
 
-    public void setAdHurt(double adHurt) {
+    public void setAdHurt(int adHurt) {
         this.adHurt = adHurt;
     }
 
-    public void setAdFang(double adFang) {
+    public void setAdFang(int adFang) {
         this.adFang = adFang;
     }
 
-    public void setAdChuan(double adChuan) {
+    public void setAdChuan(int adChuan) {
         this.adChuan = adChuan;
     }
 
-    public void setApHurt(double apHurt) {
+    public void setApHurt(int apHurt) {
         this.apHurt = apHurt;
     }
 
-    public void setapXiXue(double aXiXue) {
+    public void setapXiXue(int aXiXue) {
         this.apXiXue = aXiXue;
     }
 
-    public void setApFang(double apFang) {
+    public void setApFang(int apFang) {
         this.apFang = apFang;
     }
 
-    public void setApChuan(double apChuan) {
+    public void setApChuan(int apChuan) {
         this.apChuan = apChuan;
     }
 
-    public void setBaoJil(double baoJil) {
+    public void setBaoJil(int baoJil) {
         this.baoJil = baoJil;
     }
 
-    public void setAdSpeed(double adSpeed) {
+    public void setAdSpeed(int adSpeed) {
         this.adSpeed = adSpeed;
     }
 
-    public void setLengQue(double lengQue) {
+    public void setLengQue(int lengQue) {
         this.lengQue = lengQue;
     }
 
-    public GreenRune(String fname, String color, int level,double shengMing, double huiXue, double adHurt, double adFang, double adChuan, double apHurt, double apXiXue, double apFang, double apChuan, double baoJil, double adSpeed, double lengQue) {
+    public GreenRune(String fname, String color, int level,int shengMing, int huiXue, int adHurt, int adFang, int adChuan, int apHurt, int apXiXue, int apFang, int apChuan, int baoJil, int adSpeed, int lengQue) {
         this.fname = fname;
         this.color = color;
         this.level = level;
@@ -156,6 +156,7 @@ public class GreenRune extends Epigraph{
         this.adSpeed = adSpeed;
         this.lengQue = lengQue;
     }
+
 
     public GreenRune(){
 

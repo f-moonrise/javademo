@@ -2,29 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven21/LJTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven21/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/FuFen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/RunTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/BlueRune.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/Epigraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/GreenRune.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/OrangeRune.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce2/Anamil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce2/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/BlueRune.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/BlueRune.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/GreenRune.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/GreenRune.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/OrangeRune.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/OrangeRune.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/User.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -189,6 +192,7 @@
       <workItem from="1574404242994" duration="7007000" />
       <workItem from="1574417498836" duration="601000" />
       <workItem from="1574471210755" duration="25643000" />
+      <workItem from="1574555800771" duration="19922000" />
     </task>
     <servers />
   </component>

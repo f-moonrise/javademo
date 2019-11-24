@@ -6,17 +6,17 @@ package com.test.eleven.eleven22.runeland.pojo;
  */
 public class BlueRune extends Epigraph{
 
-    private double shengMing;//最大生命
-    private double huiXue;//每秒回血
-    private double moveSpeed;//移速
-    private double adHurt;//物理攻击
-    private double adXiXue;//物理吸血
-    private double adFang;//物理防御
-    private double apHurt;//法术攻击
-    private double apXiXue;//法术吸血
-    private double apFang;//法术防御
-    private double baoJil;//暴击率
-    private double adSpeed;//攻击速度
+    private int shengMing;//最大生命
+    private int huiXue;//每秒回血
+    private int moveSpeed;//移速
+    private int adHurt;//物理攻击
+    private int adXiXue;//物理吸血
+    private int adFang;//物理防御
+    private int apHurt;//法术攻击
+    private int apXiXue;//法术吸血
+    private int apFang;//法术防御
+    private int baoJil;//暴击率
+    private int adSpeed;//攻击速度
 
 
     public String getFname() {
@@ -43,95 +43,95 @@ public class BlueRune extends Epigraph{
         this.level = level;
     }
 
-    public double getShengMing() {
+    public int getShengMing() {
         return shengMing;
     }
 
-    public double getHuiXue() {
+    public int getHuiXue() {
         return huiXue;
     }
 
-    public double getMoveSpeed() {
+    public int getMoveSpeed() {
         return moveSpeed;
     }
 
-    public double getAdHurt() {
+    public int getAdHurt() {
         return adHurt;
     }
 
-    public double getAdXiXue() {
+    public int getAdXiXue() {
         return adXiXue;
     }
 
-    public double getAdFang() {
+    public int getAdFang() {
         return adFang;
     }
 
-    public double getApHurt() {
+    public int getApHurt() {
         return apHurt;
     }
 
-    public double getapXiXue() {
+    public int getapXiXue() {
         return apXiXue;
     }
 
-    public double getApFang() {
+    public int getApFang() {
         return apFang;
     }
 
-    public double getBaoJil() {
+    public int getBaoJil() {
         return baoJil;
     }
 
-    public double getAdSpeed() {
+    public int getAdSpeed() {
         return adSpeed;
     }
 
-    public void setShengMing(double shengMing) {
+    public void setShengMing(int shengMing) {
         this.shengMing = shengMing;
     }
 
-    public void setHuiXue(double huiXue) {
+    public void setHuiXue(int huiXue) {
         this.huiXue = huiXue;
     }
 
-    public void setMoveSpeed(double moveSpeed) {
+    public void setMoveSpeed(int moveSpeed) {
         this.moveSpeed = moveSpeed;
     }
 
-    public void setAdHurt(double adHurt) {
+    public void setAdHurt(int adHurt) {
         this.adHurt = adHurt;
     }
 
-    public void setAdXiXue(double adXiXue) {
+    public void setAdXiXue(int adXiXue) {
         this.adXiXue = adXiXue;
     }
 
-    public void setAdFang(double adFang) {
+    public void setAdFang(int adFang) {
         this.adFang = adFang;
     }
 
-    public void setApHurt(double apHurt) {
+    public void setApHurt(int apHurt) {
         this.apHurt = apHurt;
     }
 
-    public void setapXiXue(double apXiXue) {
+    public void setapXiXue(int apXiXue) {
         this.apXiXue = apXiXue;
     }
 
-    public void setApFang(double apFang) {
+    public void setApFang(int apFang) {
         this.apFang = apFang;
     }
 
-    public void setBaoJil(double baoJil) {
+    public void setBaoJil(int baoJil) {
         this.baoJil = baoJil;
     }
 
-    public void setAdSpeed(double adSpeed) {
+    public void setAdSpeed(int adSpeed) {
         this.adSpeed = adSpeed;
     }
 
-    public BlueRune(String fname, String color, int level,double shengMing, double huiXue, double moveSpeed, double adHurt, double adXiXue, double adFang, double apHurt, double apXiXue, double apFang, double baoJil, double adSpeed) {
+    public BlueRune(String fname, String color, int level,int shengMing, int huiXue, int moveSpeed, int adHurt, int adXiXue, int adFang, int apHurt, int apXiXue, int apFang, int baoJil, int adSpeed) {
         this.fname = fname;
         this.color = color;
         this.level = level;

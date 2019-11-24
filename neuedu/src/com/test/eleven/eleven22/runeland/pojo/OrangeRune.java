@@ -6,16 +6,17 @@ package com.test.eleven.eleven22.runeland.pojo;
  */
 public class OrangeRune extends Epigraph{
 
-    private double shengMing;//最大生命
-    private double adHurt;//物理攻击
-    private double adXiXue;//物理吸血
-    private double adFang;//物理防御
-    private double adChuan;//物理穿透
-    private double apHurt;//法术攻击
-    private double apChuan;//法术穿透
-    private double baoJil;//暴击率
-    private double baoJix;//暴击效果
-    private double adSpeed;//攻击速度
+
+    private int shengMing;//最大生命
+    private int adHurt;//物理攻击
+    private int adXiXue;//物理吸血
+    private int adFang;//物理防御
+    private int adChuan;//物理穿透
+    private int apHurt;//法术攻击
+    private int apChuan;//法术穿透
+    private int baoJil;//暴击率
+    private int baoJix;//暴击效果
+    private int adSpeed;//攻击速度
 
     public String getFname() {
         return fname;
@@ -41,87 +42,87 @@ public class OrangeRune extends Epigraph{
         this.level = level;
     }
 
-    public double getShengMing() {
+    public int getShengMing() {
         return shengMing;
     }
 
-    public double getAdHurt() {
+    public int getAdHurt() {
         return adHurt;
     }
 
-    public double getAdXiXue() {
+    public int getAdXiXue() {
         return adXiXue;
     }
 
-    public double getAdFang() {
+    public int getAdFang() {
         return adFang;
     }
 
-    public double getAdChuan() {
+    public int getAdChuan() {
         return adChuan;
     }
 
-    public double getApHurt() {
+    public int getApHurt() {
         return apHurt;
     }
 
-    public double getApChuan() {
+    public int getApChuan() {
         return apChuan;
     }
 
-    public double getBaoJil() {
+    public int getBaoJil() {
         return baoJil;
     }
 
-    public double getBaoJix() {
+    public int getBaoJix() {
         return baoJix;
     }
 
-    public double getAdSpeed() {
+    public int getAdSpeed() {
         return adSpeed;
     }
 
-    public void setShengMing(double shengMing) {
+    public void setShengMing(int shengMing) {
         this.shengMing = shengMing;
     }
 
-    public void setAdHurt(double adHurt) {
+    public void setAdHurt(int adHurt) {
         this.adHurt = adHurt;
     }
 
-    public void setAdXiXue(double adXiXue) {
+    public void setAdXiXue(int adXiXue) {
         this.adXiXue = adXiXue;
     }
 
-    public void setAdFang(double adFang) {
+    public void setAdFang(int adFang) {
         this.adFang = adFang;
     }
 
-    public void setAdChuan(double adChuan) {
+    public void setAdChuan(int adChuan) {
         this.adChuan = adChuan;
     }
 
-    public void setApHurt(double apHurt) {
+    public void setApHurt(int apHurt) {
         this.apHurt = apHurt;
     }
 
-    public void setApChuan(double apChuan) {
+    public void setApChuan(int apChuan) {
         this.apChuan = apChuan;
     }
 
-    public void setBaoJil(double baoJil) {
+    public void setBaoJil(int baoJil) {
         this.baoJil = baoJil;
     }
 
-    public void setBaoJix(double baoJix) {
+    public void setBaoJix(int baoJix) {
         this.baoJix = baoJix;
     }
 
-    public void setAdSpeed(double adSpeed) {
+    public void setAdSpeed(int adSpeed) {
         this.adSpeed = adSpeed;
     }
 
-    public OrangeRune(String fname, String color, int level,double shengMing, double adHurt, double adXiXue, double adFang, double adChuan, double apHurt, double apChuan, double baoJil, double baoJix, double adSpeed) {
+    public OrangeRune(String fname, String color, int level,int shengMing, int adHurt, int adXiXue, int adFang, int adChuan, int apHurt, int apChuan, int baoJil, int baoJix, int adSpeed) {
         this.fname = fname;
         this.color = color;
         this.level = level;
@@ -136,6 +137,7 @@ public class OrangeRune extends Epigraph{
         this.baoJix = baoJix;
         this.adSpeed = adSpeed;
     }
+
 
     public OrangeRune(){
 
