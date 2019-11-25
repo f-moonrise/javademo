@@ -40,11 +40,42 @@ public class RunTest {
                 }
             }
         }
+        System.out.println("保存成功");
+        back();
+    }
+
+    //  返回页面
+    public static void back(){
+        System.out.println("请选择返回页面");
+        System.out.println("1-返回铭文大陆，0-返回选择页面");
+        Scanner in = new Scanner(System.in);
+        int fs = in.nextInt();
+        if(fs==1){
+            kaishi();
+        }else{
+            option();
+        }
     }
 
     //  打印用户和铭文
     public static void showbang(){
-//        int level=0;
+        int level=0;
+        int fs = 0;
+        int shengMing=0;//最大生命
+        int huiXue=0;//每秒回血
+        int moveSpeed=0;//移速
+        int adHurt=0;//物理攻击
+        int adXiXue=0;//物理吸血
+        int adChuan=0;//物理穿透
+        int adFang=0;//物理防御
+        int apHurt=0;//法术攻击
+        int apXiXue=0;//法术吸血
+        int apChuan=0;//法术穿透
+        int apFang=0;//法术防御
+        int baoJil=0;//暴击率
+        int baoJix=0;//暴击效果
+        int adSpeed=0;//攻击速度
+        int lengQue=0;//冷却
         for(int i=0;i<userz.length;i++){
             for(int j=0;j<3;j++){
                 for(int k=0;k<10;k++){
@@ -52,14 +83,512 @@ public class RunTest {
                         if(user!=null&&fw!=null){
                             if(user[i]!=null&&fw[j][k]!=null){
                                 System.out.print(user[i].uname);
-                                System.out.println(fw[j][k]);
-//                                level = level + fw[j][k];
+                                System.out.print(fw[j][k]);
+//                                showlevel(fw[j][k]);
+                                fs = showlevel(fw[j][k]);
+                                level = level + fs;
+
+                                shengMing = shengMing + shujushengMing(fw[j][k]);
+                                huiXue = huiXue + shujuhuiXue(fw[j][k]);
+                                moveSpeed = moveSpeed + shujumoveSpeed(fw[j][k]);
+                                adHurt = adHurt + shujuadHurt(fw[j][k]);
+                                adXiXue = adXiXue + shujuadXiXue(fw[j][k]);
+                                adChuan = adChuan + shujuadChuan(fw[j][k]);
+                                adFang = adFang + shujuadFang(fw[j][k]);
+                                apHurt = apHurt + shujuapHurt(fw[j][k]);
+                                apXiXue = apXiXue + shujuapXiXue(fw[j][k]);
+                                apChuan = apChuan + shujuapChuan(fw[j][k]);
+                                apFang = apFang + shujuapFang(fw[j][k]);
+                                baoJil = baoJil + shujubaoJil(fw[j][k]);
+                                baoJix = baoJix + shujubaoJix(fw[j][k]);
+                                adSpeed = adSpeed + shujuadSpeed(fw[j][k]);
+                                lengQue = lengQue + shujulengQue(fw[j][k]);
                             }
                         }
                     }
                 }
             }
         }
+        System.out.println("总能力值为:" + level);
+        System.out.println("最大生命:" + shengMing/100.00 + " 每秒回血:" + huiXue/100.00 + " 移速:" + moveSpeed/100.00 +
+                " 物理攻击:" + adHurt/100.00 + " 物理吸血:" + adXiXue/100.00 + " 物理防御:" + adFang/100.00 + " 物理穿透:" + adChuan/100.00 +
+                " 法术攻击:" + apHurt/100.00 + " 法术吸血:" + apXiXue/100.00 + " 法术防御:" + apFang/100.00 + " 法术穿透:" + apChuan/100.00 +
+                " 暴击率:" + baoJil/100.00 + " 暴击效果:" + baoJix/100.00 +
+                " 攻击速度:" + adSpeed/100.00 + " 冷却·:" + lengQue/100.00);
+        back();
+    }
+
+    //  打印总加成数据
+    public static void shuju(String fw){
+        int shengMing=0;//最大生命
+        int huiXue=0;//每秒回血
+        int moveSpeed=0;//移速
+        int adHurt=0;//物理攻击
+        int adXiXue=0;//物理吸血
+        int adChuan=0;//物理穿透
+        int adFang=0;//物理防御
+        int apHurt=0;//法术攻击
+        int apXiXue=0;//法术吸血
+        int apChuan=0;//法术穿透
+        int apFang=0;//法术防御
+        int baoJil=0;//暴击率
+        int baoJix=0;//暴击效果
+        int adSpeed=0;//攻击速度
+        int lengQue=0;//冷却
+
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                shengMing = shengMing + bfw[i].getShengMing();
+                huiXue = huiXue + bfw[i].getHuiXue();
+                moveSpeed = moveSpeed + bfw[i].getMoveSpeed();
+                adHurt = adHurt + bfw[i].getAdHurt();
+                adXiXue = adXiXue + bfw[i].getAdXiXue();
+                adFang = adFang + bfw[i].getAdFang();
+                apHurt = apHurt + bfw[i].getApHurt();
+                apXiXue = apXiXue + bfw[i].getapXiXue();
+                apFang = apFang + bfw[i].getApFang();
+                baoJil = baoJil + bfw[i].getBaoJil();
+                adSpeed = adSpeed + bfw[i].getAdSpeed();
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                shengMing = shengMing + gfw[i].getShengMing();
+                huiXue = huiXue + gfw[i].getHuiXue();
+                adHurt = adHurt + gfw[i].getAdHurt();
+                adFang = adFang + gfw[i].getAdFang();
+                adChuan = adChuan +gfw[i].getAdChuan();
+                apHurt = apHurt + gfw[i].getApHurt();
+                apXiXue = apXiXue + gfw[i].getapXiXue();
+                apFang = apFang + gfw[i].getApFang();
+                apChuan = apChuan + gfw[i].getApChuan();
+                baoJil = baoJil + gfw[i].getBaoJil();
+                adSpeed = adSpeed + gfw[i].getAdSpeed();
+                lengQue = lengQue + gfw[i].getLengQue();
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                shengMing = shengMing + ofw[i].getShengMing();
+                adHurt = adHurt + ofw[i].getAdHurt();
+                adFang = adFang + ofw[i].getAdFang();
+                adChuan = adChuan + ofw[i].getAdChuan();
+                adXiXue = adXiXue + ofw[i].getAdXiXue();
+                apHurt = apHurt + ofw[i].getApHurt();
+                apChuan = apChuan + ofw[i].getApChuan();
+                baoJil = baoJil + ofw[i].getBaoJil();
+                baoJix = baoJix + ofw[i].getBaoJix();
+                adSpeed = adSpeed + ofw[i].getAdSpeed();            }
+        }
+
+    }
+
+    public static int shujushengMing(String fw){
+        int shengMing=0;//最大生命
+
+
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                shengMing = shengMing + bfw[i].getShengMing();
+                return shengMing;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                shengMing = shengMing + gfw[i].getShengMing();
+                return shengMing;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                shengMing = shengMing + ofw[i].getShengMing();
+                return shengMing;
+            }
+        }
+        return shengMing;
+    }
+
+    public static int shujuhuiXue(String fw){
+        int huiXue=0;//每秒回血
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                huiXue = huiXue + bfw[i].getHuiXue();
+                return huiXue;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                huiXue = huiXue + gfw[i].getHuiXue();
+                return huiXue;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                return huiXue;
+            }
+        }
+        return huiXue;
+    }
+
+    public static int shujumoveSpeed(String fw){
+        int moveSpeed=0;//移速
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                moveSpeed = moveSpeed + bfw[i].getMoveSpeed();
+                return moveSpeed;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                return moveSpeed;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                return moveSpeed;
+            }
+        }
+        return moveSpeed;
+    }
+
+    public static int shujuadHurt(String fw){
+        int adHurt=0;//物理攻击
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                adHurt = adHurt + bfw[i].getAdHurt();
+                return adHurt;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                adHurt = adHurt + gfw[i].getAdHurt();
+                return adHurt;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                adHurt = adHurt + ofw[i].getAdHurt();
+                return adHurt;
+            }
+        }
+        return adHurt;
+    }
+
+    public static int shujuadXiXue(String fw){
+        int adXiXue=0;//物理吸血
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                adXiXue = adXiXue + bfw[i].getAdXiXue();
+                return adXiXue;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                return adXiXue;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                adXiXue = adXiXue + ofw[i].getAdXiXue();
+                return adXiXue;
+            }
+        }
+        return adXiXue;
+    }
+
+    public static int shujuadChuan(String fw){
+        int adChuan=0;//物理穿透
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                return adChuan;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                adChuan = adChuan +gfw[i].getAdChuan();
+                return adChuan;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                adChuan = adChuan + ofw[i].getAdChuan();
+                return  adChuan;
+            }
+        }
+        return  adChuan;
+    }
+
+    public static int shujuadFang(String fw){
+        int adFang=0;//物理防御
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                adFang = adFang + bfw[i].getAdFang();
+                return adFang;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                adFang = adFang + gfw[i].getAdFang();
+                return adFang;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                adFang = adFang + ofw[i].getAdFang();
+                return adFang;
+            }
+        }
+        return adFang;
+    }
+
+    public static int shujuapHurt(String fw){
+        int apHurt=0;//法术攻击
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                apHurt = apHurt + bfw[i].getApHurt();
+                return  apHurt;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                apHurt = apHurt + gfw[i].getApHurt();
+                return apHurt;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                apHurt = apHurt + ofw[i].getApHurt();
+                return apHurt;
+            }
+        }
+        return apHurt;
+    }
+
+    public static int shujuapXiXue(String fw){
+        int apXiXue=0;//法术吸血
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                apXiXue = apXiXue + bfw[i].getapXiXue();
+                return apXiXue;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                apXiXue = apXiXue + gfw[i].getapXiXue();
+                return apXiXue;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                 return apXiXue;
+            }
+        }
+        return apXiXue;
+    }
+
+    public static int shujuapChuan(String fw){
+        int apChuan=0;//法术穿透
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                return apChuan;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                apChuan = apChuan + gfw[i].getApChuan();
+                return  apChuan;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                apChuan = apChuan + ofw[i].getApChuan();
+                return  apChuan;
+            }
+        }
+        return  apChuan;
+    }
+
+    public static int shujuapFang(String fw){
+        int apFang=0;//法术防御
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                apFang = apFang + bfw[i].getApFang();
+                return apFang;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                apFang = apFang + gfw[i].getApFang();
+                return apFang;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                return apFang;
+            }
+        }
+        return apFang;
+    }
+
+    public static int shujubaoJil(String fw){
+        int baoJil=0;//暴击率
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                baoJil = baoJil + bfw[i].getBaoJil();
+                return baoJil;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                baoJil = baoJil + gfw[i].getBaoJil();
+                return baoJil;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                baoJil = baoJil + ofw[i].getBaoJil();
+                return baoJil;
+            }
+        }
+        return baoJil;
+    }
+
+    public static int shujubaoJix(String fw){
+        int baoJix=0;//暴击效果
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                return baoJix;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                return baoJix;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                baoJix = baoJix + ofw[i].getBaoJix();
+                return baoJix;
+            }
+        }
+        return baoJix;
+    }
+
+    public static int shujuadSpeed(String fw){
+        int adSpeed=0;//攻击速度
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                adSpeed = adSpeed + bfw[i].getAdSpeed();
+                return adSpeed;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                adSpeed = adSpeed + gfw[i].getAdSpeed();
+                return adSpeed;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                adSpeed = adSpeed + ofw[i].getAdSpeed();
+                return adSpeed;}
+        }
+        return adSpeed;
+    }
+
+    public static int shujulengQue(String fw){
+        int lengQue=0;//冷却
+
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                return lengQue;
+            }
+        }
+
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                lengQue = lengQue + gfw[i].getLengQue();
+                return lengQue;
+            }
+        }
+
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                return lengQue;
+            }
+        }
+        return lengQue;
+    }
+
+
+
+    //  打印对应铭文的等级
+    public static int showlevel(String fw){
+        int level = 0;
+        for(int i=0;i<bfw.length;i++){
+            if(bfw[i].getFname().equals(fw)){
+                System.out.print(bfw[i].getLevel());
+                return  level + bfw[i].getLevel();
+            }
+        }
+        for(int i=0;i<gfw.length;i++){
+            if(gfw[i].getFname().equals(fw)){
+                System.out.print(gfw[i].getLevel());
+                return  level + gfw[i].getLevel();
+            }
+        }
+        for(int i=0;i<ofw.length;i++){
+            if(ofw[i].getFname().equals(fw)){
+                System.out.print(ofw[i].getLevel());
+                return  level + ofw[i].getLevel();
+            }
+        }
+        return 0;
     }
 
     //  界面模块
@@ -80,6 +609,7 @@ public class RunTest {
             }else if(fs == 2){
                 System.out.println("欢迎来到登录页面！");
                 login();
+                key = false;
             }else{
                 System.out.println("很不辛你被时空裂缝所吞噬");
                 System.out.println("GAME OVER!");
@@ -207,7 +737,7 @@ public class RunTest {
 
     //  用户登录
     public static void login(){
-        boolean key = false;
+        boolean key = true;
         System.out.println("##################");
         System.out.println("欢迎来到登录页面！");
         Scanner in = new Scanner(System.in);
@@ -221,7 +751,7 @@ public class RunTest {
             if(user[i]!=null&&user[i].uname.equals(uname)&&user[i].pwd.equals(pwd)){
                 System.out.println("登录成功！");
                 option();
-                key = true;
+                key = false;
 //                break;
             }
 //            else {
@@ -232,7 +762,7 @@ public class RunTest {
 
         while (key){
             System.out.println("登录失败，退回到初始页面。");
-            key = false;
+//            key = false;
         }
     }
 
@@ -770,7 +1300,6 @@ public class RunTest {
 
     }
 
-
     //选择绿色铭文
     public static void optiong(){
         Scanner in = new Scanner(System.in);
@@ -1015,7 +1544,7 @@ public class RunTest {
             String fs1 = in.next();
             for(int i=0;i<bfw.length;i++){
                 if(fs1.equals(bfw[i].getFname())){
-                    System.out.printf( " 名字:" + bfw[i].getFname());
+                    System.out.printf( "名字:" + bfw[i].getFname());
                     System.out.printf( " 颜色:" + bfw[i].getColor());
                     System.out.print( " 等级:" + bfw[i].getLevel());
                     System.out.print( " 最大生命:" + bfw[i].getShengMing()/100.00);
@@ -1059,7 +1588,7 @@ public class RunTest {
             String fs1 = in.next();
             for(int i=0;i<gfw.length;i++){
                 if(fs1.equals(gfw[i].getFname())){
-                    System.out.printf( " 名字:" + gfw[i].getFname());
+                    System.out.printf( "名字:" + gfw[i].getFname());
                     System.out.printf( " 颜色:" + gfw[i].getColor());
                     System.out.print( " 等级:" + gfw[i].getLevel());
                     System.out.print( " 最大生命:" + gfw[i].getShengMing()/100.00);
@@ -1104,7 +1633,7 @@ public class RunTest {
             String fs1 = in.next();
             for(int i=0;i<ofw.length;i++){
                 if(fs1.equals(ofw[i].getFname())){
-                    System.out.printf( " 名字:" + ofw[i].getFname());
+                    System.out.printf( "名字:" + ofw[i].getFname());
                     System.out.printf( " 颜色:" + ofw[i].getColor());
                     System.out.print( " 等级:" + ofw[i].getLevel());
                     System.out.print( " 最大生命:" + ofw[i].getShengMing()/100.00);
