@@ -109,6 +109,7 @@ public class RunTest {
                 }
             }
         }
+        System.out.println();
         System.out.println("总能力值为:" + level);
         System.out.println("最大生命:" + shengMing/100.00 + " 每秒回血:" + huiXue/100.00 + " 移速:" + moveSpeed/100.00 +
                 " 物理攻击:" + adHurt/100.00 + " 物理吸血:" + adXiXue/100.00 + " 物理防御:" + adFang/100.00 + " 物理穿透:" + adChuan/100.00 +
@@ -119,72 +120,72 @@ public class RunTest {
     }
 
     //  打印总加成数据
-    public static void shuju(String fw){
-        int shengMing=0;//最大生命
-        int huiXue=0;//每秒回血
-        int moveSpeed=0;//移速
-        int adHurt=0;//物理攻击
-        int adXiXue=0;//物理吸血
-        int adChuan=0;//物理穿透
-        int adFang=0;//物理防御
-        int apHurt=0;//法术攻击
-        int apXiXue=0;//法术吸血
-        int apChuan=0;//法术穿透
-        int apFang=0;//法术防御
-        int baoJil=0;//暴击率
-        int baoJix=0;//暴击效果
-        int adSpeed=0;//攻击速度
-        int lengQue=0;//冷却
-
-
-        for(int i=0;i<bfw.length;i++){
-            if(bfw[i].getFname().equals(fw)){
-                shengMing = shengMing + bfw[i].getShengMing();
-                huiXue = huiXue + bfw[i].getHuiXue();
-                moveSpeed = moveSpeed + bfw[i].getMoveSpeed();
-                adHurt = adHurt + bfw[i].getAdHurt();
-                adXiXue = adXiXue + bfw[i].getAdXiXue();
-                adFang = adFang + bfw[i].getAdFang();
-                apHurt = apHurt + bfw[i].getApHurt();
-                apXiXue = apXiXue + bfw[i].getapXiXue();
-                apFang = apFang + bfw[i].getApFang();
-                baoJil = baoJil + bfw[i].getBaoJil();
-                adSpeed = adSpeed + bfw[i].getAdSpeed();
-            }
-        }
-
-        for(int i=0;i<gfw.length;i++){
-            if(gfw[i].getFname().equals(fw)){
-                shengMing = shengMing + gfw[i].getShengMing();
-                huiXue = huiXue + gfw[i].getHuiXue();
-                adHurt = adHurt + gfw[i].getAdHurt();
-                adFang = adFang + gfw[i].getAdFang();
-                adChuan = adChuan +gfw[i].getAdChuan();
-                apHurt = apHurt + gfw[i].getApHurt();
-                apXiXue = apXiXue + gfw[i].getapXiXue();
-                apFang = apFang + gfw[i].getApFang();
-                apChuan = apChuan + gfw[i].getApChuan();
-                baoJil = baoJil + gfw[i].getBaoJil();
-                adSpeed = adSpeed + gfw[i].getAdSpeed();
-                lengQue = lengQue + gfw[i].getLengQue();
-            }
-        }
-
-        for(int i=0;i<ofw.length;i++){
-            if(ofw[i].getFname().equals(fw)){
-                shengMing = shengMing + ofw[i].getShengMing();
-                adHurt = adHurt + ofw[i].getAdHurt();
-                adFang = adFang + ofw[i].getAdFang();
-                adChuan = adChuan + ofw[i].getAdChuan();
-                adXiXue = adXiXue + ofw[i].getAdXiXue();
-                apHurt = apHurt + ofw[i].getApHurt();
-                apChuan = apChuan + ofw[i].getApChuan();
-                baoJil = baoJil + ofw[i].getBaoJil();
-                baoJix = baoJix + ofw[i].getBaoJix();
-                adSpeed = adSpeed + ofw[i].getAdSpeed();            }
-        }
-
-    }
+//    public static void shuju(String fw){
+//        int shengMing=0;//最大生命
+//        int huiXue=0;//每秒回血
+//        int moveSpeed=0;//移速
+//        int adHurt=0;//物理攻击
+//        int adXiXue=0;//物理吸血
+//        int adChuan=0;//物理穿透
+//        int adFang=0;//物理防御
+//        int apHurt=0;//法术攻击
+//        int apXiXue=0;//法术吸血
+//        int apChuan=0;//法术穿透
+//        int apFang=0;//法术防御
+//        int baoJil=0;//暴击率
+//        int baoJix=0;//暴击效果
+//        int adSpeed=0;//攻击速度
+//        int lengQue=0;//冷却
+//
+//
+//        for(int i=0;i<bfw.length;i++){
+//            if(bfw[i].getFname().equals(fw)){
+//                shengMing = shengMing + bfw[i].getShengMing();
+//                huiXue = huiXue + bfw[i].getHuiXue();
+//                moveSpeed = moveSpeed + bfw[i].getMoveSpeed();
+//                adHurt = adHurt + bfw[i].getAdHurt();
+//                adXiXue = adXiXue + bfw[i].getAdXiXue();
+//                adFang = adFang + bfw[i].getAdFang();
+//                apHurt = apHurt + bfw[i].getApHurt();
+//                apXiXue = apXiXue + bfw[i].getapXiXue();
+//                apFang = apFang + bfw[i].getApFang();
+//                baoJil = baoJil + bfw[i].getBaoJil();
+//                adSpeed = adSpeed + bfw[i].getAdSpeed();
+//            }
+//        }
+//
+//        for(int i=0;i<gfw.length;i++){
+//            if(gfw[i].getFname().equals(fw)){
+//                shengMing = shengMing + gfw[i].getShengMing();
+//                huiXue = huiXue + gfw[i].getHuiXue();
+//                adHurt = adHurt + gfw[i].getAdHurt();
+//                adFang = adFang + gfw[i].getAdFang();
+//                adChuan = adChuan +gfw[i].getAdChuan();
+//                apHurt = apHurt + gfw[i].getApHurt();
+//                apXiXue = apXiXue + gfw[i].getapXiXue();
+//                apFang = apFang + gfw[i].getApFang();
+//                apChuan = apChuan + gfw[i].getApChuan();
+//                baoJil = baoJil + gfw[i].getBaoJil();
+//                adSpeed = adSpeed + gfw[i].getAdSpeed();
+//                lengQue = lengQue + gfw[i].getLengQue();
+//            }
+//        }
+//
+//        for(int i=0;i<ofw.length;i++){
+//            if(ofw[i].getFname().equals(fw)){
+//                shengMing = shengMing + ofw[i].getShengMing();
+//                adHurt = adHurt + ofw[i].getAdHurt();
+//                adFang = adFang + ofw[i].getAdFang();
+//                adChuan = adChuan + ofw[i].getAdChuan();
+//                adXiXue = adXiXue + ofw[i].getAdXiXue();
+//                apHurt = apHurt + ofw[i].getApHurt();
+//                apChuan = apChuan + ofw[i].getApChuan();
+//                baoJil = baoJil + ofw[i].getBaoJil();
+//                baoJix = baoJix + ofw[i].getBaoJix();
+//                adSpeed = adSpeed + ofw[i].getAdSpeed();            }
+//        }
+//
+//    }
 
     public static int shujushengMing(String fw){
         int shengMing=0;//最大生命
@@ -897,7 +898,6 @@ public class RunTest {
         bfw[30] = br;
     }
 
-
     //  绿色符文初始化
 //    public static void greenc(){
 //        GreenRune gr = new GreenRune("应激" , "green" , 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.20);
@@ -1030,7 +1030,6 @@ public class RunTest {
         gfw[30] = gr;
 
     }
-
 
     //  橙色符文初始化
 //    public static void orangec(){
@@ -1165,7 +1164,6 @@ public class RunTest {
 
     }
 
-
     //  选择铭文
     public static void option(){
         System.out.println("请输入你想选择的铭文？");
@@ -1288,7 +1286,6 @@ public class RunTest {
                 " 物理吸血:" + adXiXue/100.00 + " 物理防御:" + adFang/100.00 + " 法术攻击:" + apHurt/100.00 +
                 " 法术吸血:" + apXiXue/100.00 + " 法术防御:" + apFang/100.00 + " 暴击率:" + baoJil/100.00 + " 攻击速度:" + adSpeed/100.00);
         System.out.println("能力值:" + level);
-
         //  确认
         int fs = likai();
         if(fs==1){
