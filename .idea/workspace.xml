@@ -2,35 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven26/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven26/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven26/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven26/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven26/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven26/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven26/Test7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven26/Test8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven26/Test9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven27/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven27/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven27/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven27/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven27/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven27/Test6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven28/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven28/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3_1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3_1/HomeCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3_1/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3_1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/StudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/StudentDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/StudentDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/auctiondemo/AuctionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/auctiondemo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/auctiondemo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/auctiondemo/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/auctiondemo/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/BlueRune.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven22/runeland/pojo/BlueRune.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven22/runeland/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven22/runeland/RunTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven18/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven18/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/zhouce3/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven18/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven18/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/zhouce3/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/zhouce3/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/zhouce3/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/zhouce3/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/zhouce3/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/zhouce3/Util.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +84,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Github\javademo\neuedu\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Github\javademo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo\neuedu\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,12 +104,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.zhouce3.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven18.Test" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.zhouce3.*" />
+          <option name="PATTERN" value="com.test.eleven.eleven18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +118,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.zhouce3_1.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven29.shitou.Test" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.zhouce3_1.*" />
+          <option name="PATTERN" value="com.test.eleven.eleven29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +131,11 @@
       </method>
     </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven28.Test1" />
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven29.Test1" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven28.*" />
+          <option name="PATTERN" value="com.test.eleven.eleven29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +144,11 @@
       </method>
     </configuration>
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven28.Test2" />
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven29.Test2" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven28.*" />
+          <option name="PATTERN" value="com.test.eleven.eleven29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven27.Test6" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven29.Test3" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven27.*" />
+          <option name="PATTERN" value="com.test.eleven.eleven29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,10 +172,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test6" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test2 (1)" />
+        <item itemvalue="Application.Test1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +220,7 @@
       <workItem from="1574731797108" duration="12996000" />
       <workItem from="1574820777984" duration="5333000" />
       <workItem from="1574834096442" duration="22148000" />
+      <workItem from="1574917413973" duration="37921000" />
     </task>
     <servers />
   </component>
@@ -265,6 +265,11 @@
           <url>file://$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven18/Test1.java</url>
           <line>124</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/Test3.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
