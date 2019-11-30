@@ -1,6 +1,7 @@
 package com.test.eleven.eleven29.shitou.service;
 
 import com.test.eleven.eleven29.shitou.dao.UserDao;
+import com.test.eleven.eleven29.shitou.pojo.User;
 import com.test.eleven.zhouce3.Util;
 
 /**
@@ -17,7 +18,7 @@ public class UserService {
         if(fs==1){
             return "该用户以注册！";
         }else {
-            int fs1 = ud.add(name,psd,0);
+            int fs1 = ud.add(name,psd,0,null);
             if (fs1==1){
                 return "注册成功";
             }else{
@@ -27,13 +28,40 @@ public class UserService {
     }
 
     //登录
-    public String login(String name, String psd){
+    public int login(String name, String psd){
         int fs = ud.selecth(name, psd);
-        if(fs==1){
-            return "登录成功";
 
+        if(fs!=0){
+            System.out.println("登录成功");
+            return fs;
         }else {
-            return "登录失败";
+            System.out.println("登录成功");
+            return 0;
+        }
+    }
+
+    //打印用户信息
+    public void showUser(int asd){
+        User user = ud.showUser(asd);
+        if(user!=null){
+            System.out.printf("名字:"+user.getName());
+            System.out.print("积分:"+user.getIntegral());
+            System.out.printf("已选商品:");
+            for(int j=0;j<user.getGcar().length;j++){
+               if(user.getGcar()!=null&&user.getGcar()[j]!=null){
+                  System.out.print(user.getGcar()[j].getPname());
+               }
+            }
+            System.out.println();
+        }
+    }
+
+    //充值
+    public void chong(int asd,int fs){
+        if(fs<0||fs>100){
+            System.out.println("充值失败！");
+        }else {
+            ud.chong(asd,fs);
         }
     }
 
@@ -45,8 +73,8 @@ public class UserService {
     }
 
     //游戏
-    public String youxi(int select){
-        int fs = ud.youxi(select);
+    public String youxi(int select,int asd){
+        int fs = ud.youxi(select,asd);
         if(fs==1){
             return "恭喜你赢了";
         }else if(fs==-1){

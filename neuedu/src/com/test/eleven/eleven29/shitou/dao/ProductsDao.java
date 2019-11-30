@@ -7,7 +7,7 @@ import com.test.eleven.eleven29.shitou.pojo.Products;
  * @date 2019/11/30 10:53
  */
 public class ProductsDao {
-        Products[] products = new Products[100];
+        public static Products[] products = new Products[15];
         //商品初始化
     public void chup(){
         Products p = new Products(0, "主宰", 18888);
@@ -34,37 +34,52 @@ public class ProductsDao {
     }
 
     //商品展示
-    public String showProducts(){
+    public void showProducts(){
         for(int i=0;i<products.length;i++){
             if(products[i]!=null){
-                return "编号:" + products[i].getId() + "名称:" + products[i].getPname() + "价格:" + products[i].getPrice();
+                System.out.println("编号:" + products[i].getId() + " 名称:" + products[i].getPname() + " 价格:" + products[i].getPrice());
+            }
+        }
+    }
+
+    //商品id查询
+    public String selectProduct(int id){
+            for(int i=0;i<products.length;i++){
+                if(products[i]!=null){
+                    if(products[i].getId() == (id)){
+                        return "编号:" + products[i].getId() + " 名称:" + products[i].getPname() + " 价格:" + products[i].getPrice();
+                    }
+                }
+            }
+        return "没有找到该商品";
+    }
+
+    //商品名称查询
+    public Products selectProduct1(String name){
+        if(name!=null){
+            for(int i=0;i<products.length;i++){
+                if(products[i]!=null){
+                    if(products[i].getPname().equals(name)){
+                        return products[i];
+                    }
+                }
             }
         }
         return null;
     }
 
-    //商品查询
-    public String selectProduct(int id){
-            for(int i=0;i<products.length;i++){
-                if(products[i]!=null){
-                    if(products[i].getId() == (id)){
-                        return "编号:" + products[i].getId() + "名称:" + products[i].getPname() + "价格:" + products[i].getPrice();
-                    }
-                }
-            }
-        return "没有找到该商品";
-    }
-
+    //商品name查询
     public String selectProduct(String name){
         if(name!=null){
             for(int i=0;i<products.length;i++){
                 if(products[i]!=null){
                     if(products[i].getPname().equals(name)){
-                        return "编号:" + products[i].getId() + "名称:" + products[i].getPname() + "价格:" + products[i].getPrice();
+                        return "编号:" + products[i].getId() + " 名称:" + products[i].getPname() + " 价格:" + products[i].getPrice();
                     }
                 }
             }
         }
         return "没有找到该商品";
     }
+
 }

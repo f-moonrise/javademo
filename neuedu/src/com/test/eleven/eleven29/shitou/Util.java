@@ -31,7 +31,13 @@ public class Util {
     public static void paiMai(){
         System.out.println("******************************");
         System.out.println("*********欢迎来到拍卖场*********");
-        System.out.println("****首先向大家展示下我们的商品****");
+        System.out.println("*****请选择你要拍卖的商品名称*****");
+        System.out.println("******************************");
+    }
+
+    public static void select(){
+        System.out.println("******************************");
+        System.out.println("*********欢迎来到查询处*********");
         System.out.println("******************************");
     }
 
@@ -69,7 +75,19 @@ public class Util {
     public static void cha(){
         System.out.println("*****************************");
         System.out.println("*******欢迎来到查询模块*******");
-        System.out.println("***输入你要查询的编号或名称***");
+        System.out.println("********输入1-查询编号********");
+        System.out.println("********输入2-查询名称********");
         System.out.println("****************************");
+    }
+
+    public static void youxi(){
+        System.out.println("*****************************");
+        System.out.println("*******欢迎来到游戏模块*******");
+        System.out.println("********输入1-代表拳头********");
+        System.out.println("********输入2-代表剪刀********");
+        System.out.println("********输入3-代表布**********");
+        System.out.println("********赢一把得10积分*********");
+        System.out.println("********输一把少10积分*********");
+        System.out.println("*****************************");
     }
 }

@@ -8,6 +8,15 @@ public class User {
     private String name;
     private String psd;
     private int Integral;
+    private Products[] gcar = new Products[10];
+
+    public Products[] getGcar() {
+        return gcar;
+    }
+
+    public void setGcar(Products[] gcar) {
+        this.gcar = gcar;
+    }
 
     public User(){}
 
@@ -40,9 +49,10 @@ public class User {
         Integral = integral;
     }
 
-    public User(String name, String psd, int integral) {
+    public User(String name, String psd, int integral,Products[] gcar) {
         this.name = name;
         this.psd = psd;
-        Integral = integral;
+        this.Integral = integral;
+        this.gcar = gcar;
     }
 }

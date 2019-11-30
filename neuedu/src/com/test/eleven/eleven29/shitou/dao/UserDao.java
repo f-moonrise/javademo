@@ -1,5 +1,6 @@
 package com.test.eleven.eleven29.shitou.dao;
 
+import com.test.eleven.eleven29.shitou.pojo.Products;
 import com.test.eleven.eleven29.shitou.pojo.User;
 
 import java.util.Random;
@@ -9,7 +10,7 @@ import java.util.Random;
  * @date 2019/11/29 14:43
  */
 public class UserDao {
-    User[] us = new User[10];
+    public static User[] us = new User[10];
 
     //用户查找
     public int select(String name){
@@ -25,17 +26,17 @@ public class UserDao {
     public int selecth(String name, String psd){
         for(int i=0;i<us.length;i++){
             if(us[i]!=null&&us[i].getName().equals(name)&&us[i].getPsd().equals(psd)){
-                return 1;
+                return i+1;
             }
         }
         return 0;
     }
 
     //用户添加
-    public int add(String name, String psd, int integral){
+    public int add(String name, String psd, int integral, Products[] gcar){
         for(int i=0;i<us.length;i++){
             if(us[i]==null){
-                us[i] = new User(name,psd);
+                us[i] = new User(name,psd,integral,gcar);
                 return 1;
             }
         }
@@ -55,7 +56,7 @@ public class UserDao {
     //积分排序
     public void selectInte(){
         for(int i=0;i<us.length;i++){
-            if(us[i].getName()!=null){
+            if(us[i]!=null&&us[i].getName()!=null){
                 int maxIndex = i;
                 int max = us[i].getIntegral();
                 for(int j=i+1;j<us.length;j++){
@@ -73,6 +74,27 @@ public class UserDao {
         }
     }
 
+    //购物车物品添加
+    public void addPro(int asd, Products[] products){
+        us[asd].setGcar(products);
+    }
+
+    //充值
+    public void chong(int asd,int fs){
+        us[asd].setIntegral(us[asd].getIntegral() + fs) ;
+        System.out.println("充值成功");
+    }
+
+    //打印用户信息
+    public User showUser(int asd){
+        for(int i=0;i<us.length;i++){
+            if(us!=null&&us[i]!=null&&us[i].getName()!=null&&i==asd){
+                return us[asd];
+            }
+        }
+        return null;
+    }
+
     //排行榜打印
     public String showInte(){
         int count = 0;
@@ -85,13 +107,15 @@ public class UserDao {
         return null;
     }
 
-    public int youxi(int select){
+    public int youxi(int select,int asd){
         //定义1-拳头，2-剪刀，3-布
         Random random=new Random();
         int fs=random.nextInt(3)+1;
         if((select==1&&fs==2)||(select==2&&fs==3)||(select==3&&fs==1)){
+            us[asd].setIntegral(us[asd].getIntegral()+10);
             return 1;
         }else if((select==1&&fs==3)||(select==2&&fs==1)||(select==3&&fs==2)){
+            us[asd].setIntegral(us[asd].getIntegral()-10);
             return -1;
         }else{
             return 0;
