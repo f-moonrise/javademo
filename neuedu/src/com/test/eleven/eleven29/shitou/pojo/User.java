@@ -7,6 +7,7 @@ package com.test.eleven.eleven29.shitou.pojo;
 public class User {
     private String name;
     private String psd;
+    private int Integral;
 
     public User(){}
 
@@ -29,5 +30,19 @@ public class User {
 
     public void setPsd(String psd) {
         this.psd = psd;
+    }
+
+    public int getIntegral() {
+        return Integral;
+    }
+
+    public void setIntegral(int integral) {
+        Integral = integral;
+    }
+
+    public User(String name, String psd, int integral) {
+        this.name = name;
+        this.psd = psd;
+        Integral = integral;
     }
 }
