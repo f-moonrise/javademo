@@ -41,7 +41,7 @@ public class ProductsService {
                 for(int i =0;i<10;i++){
                     if(pro[i]==null){
                         pro[i]=s;
-                            System.out.println(pro[i].getPname()+pro[i].getId()+pro[i].getPrice());
+                            System.out.println("名称" + pro[i].getPname() + " 编号" + pro[i].getId()+ " 价格" + pro[i].getPrice());
                         ud.addPro(asd,pro);
                         return "成功加入购物车";
                     }
@@ -51,4 +51,20 @@ public class ProductsService {
         return "加入购物车失败";
     }
 
+    //商品的上架
+    public String shangjia(String name,int price,int asd){
+        int fs = pd.shangjia(name, price, asd);
+        if(fs==1){
+            return "上架成功";
+        }else{
+            return "上架失败";
+        }
+
+    }
+
+    //商品排行榜
+    public void paip(){
+        pd.paip();
+        pd.showp();
+    }
 }

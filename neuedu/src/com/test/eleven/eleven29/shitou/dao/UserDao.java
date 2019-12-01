@@ -33,10 +33,10 @@ public class UserDao {
     }
 
     //用户添加
-    public int add(String name, String psd, int integral, Products[] gcar){
+    public int add(String name, String psd, int integral, Products[] gcar,Products[] bao){
         for(int i=0;i<us.length;i++){
             if(us[i]==null){
-                us[i] = new User(name,psd,integral,gcar);
+                us[i] = new User(name,psd,integral,gcar,bao);
                 return 1;
             }
         }
@@ -60,7 +60,7 @@ public class UserDao {
                 int maxIndex = i;
                 int max = us[i].getIntegral();
                 for(int j=i+1;j<us.length;j++){
-                    if(us[i].getName()!=null&&max<us[i].getIntegral()){
+                    if(us[j].getName()!=null&&max<us[j].getIntegral()){
 //                        max = us[j].getIntegral();
                         maxIndex = j;
                     }
@@ -96,15 +96,14 @@ public class UserDao {
     }
 
     //排行榜打印
-    public String showInte(){
+    public void showInte(){
         int count = 0;
         for(int i=0;i<us.length;i++){
             if(us[i].getName()!=null){
                 count = count + 1;
-                return "第" + count + "名" +" 姓名:" + us[i].getName()+ "积分:" + us[i].getIntegral();
+                System.out.println("第" + count + "名" +" 姓名:" + us[i].getName()+ "积分:" + us[i].getIntegral());
             }
         }
-        return null;
     }
 
     public int youxi(int select,int asd){
@@ -122,4 +121,35 @@ public class UserDao {
         }
     }
 
+    //清空购物车
+    public int cleang(int asd){
+        int count=0;
+        if(us[asd].getGcar()!=null){
+            for(int i=0;i<us[asd].getGcar().length;i++){
+                if(us[asd].getGcar()[i]!=null){
+                    count = count + us[asd].getGcar()[i].getPrice();
+                }
+            }
+        }else {
+            count = 0;
+        }
+
+        if (us[asd].getIntegral()>count){
+            us[asd].setIntegral(us[asd].getIntegral()-count);
+            us[asd].setBao(us[asd].getGcar());
+            us[asd].setGcar(null);
+            return 1;
+        }else {
+            return -1;
+        }
+    }
+
+    //商品的上架
+    public int shangjia(int asd) {
+        if(us[asd].getIntegral()>500){
+            return 1;
+        }else {
+            return 0;
+        }
+    }
 }

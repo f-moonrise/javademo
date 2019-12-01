@@ -18,12 +18,22 @@ public class UserService {
         if(fs==1){
             return "该用户以注册！";
         }else {
-            int fs1 = ud.add(name,psd,0,null);
+            int fs1 = ud.add(name,psd,0,null,null);
             if (fs1==1){
                 return "注册成功";
             }else{
                 return "注册失败";
             }
+        }
+    }
+
+    //商品的上架
+    public String shangjia(int asd) {
+        int fs = ud.shangjia(asd);
+        if(fs==1){
+            return "符合上架资格";
+        }else {
+            return "不符合上架资格,积分不足500";
         }
     }
 
@@ -46,11 +56,25 @@ public class UserService {
         if(user!=null){
             System.out.printf("名字:"+user.getName());
             System.out.print("积分:"+user.getIntegral());
-            System.out.printf("已选商品:");
-            for(int j=0;j<user.getGcar().length;j++){
-               if(user.getGcar()!=null&&user.getGcar()[j]!=null){
-                  System.out.print(user.getGcar()[j].getPname());
-               }
+            System.out.printf(" 已选商品:");
+            if(user.getGcar()!=null){
+                for(int j=0;j<user.getGcar().length;j++){
+                    if(user.getGcar()!=null&&user.getGcar()[j]!=null){
+                        System.out.print(user.getGcar()[j].getPname());
+                    }
+                }
+            }else {
+                System.out.print("购物车为空");
+            }
+            System.out.printf(" 已有商品:");
+            if(user.getBao()!=null){
+                for(int j=0;j<user.getBao().length;j++){
+                    if(user.getBao()!=null&&user.getBao()[j]!=null){
+                        System.out.print(user.getBao()[j].getPname());
+                    }
+                }
+            }else {
+                System.out.print("百宝囊为空");
             }
             System.out.println();
         }
@@ -66,10 +90,9 @@ public class UserService {
     }
 
     //排行榜
-    public String showInte(){
+    public void showInte(){
         ud.selectInte();
-        String fs = ud.showInte();
-        return fs;
+         ud.showInte();
     }
 
     //游戏
@@ -81,6 +104,16 @@ public class UserService {
             return "很不幸你输了";
         }else {
             return "平局";
+        }
+    }
+
+    //清空购物车
+    public String cleang(int asd){
+        int fs = ud.cleang(asd);
+        if(fs==1){
+            return "清空成功";
+        }else {
+            return "清空失败";
         }
     }
 }

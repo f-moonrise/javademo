@@ -71,4 +71,18 @@ public class ProductsController {
             chaProducts();
         }
     }
+
+    //商品的上架
+    public void shangjia(int asd) {
+        Util.shangjia();
+        System.out.println("请输入你要拍卖商品的信息:包括，名字name,价格price");
+        String name = in.next();
+        int price = in.nextInt();
+        System.out.println(ps.shangjia(name,price,asd));
+    }
+
+    //商品排行榜
+    public void paip(){
+        ps.paip();
+    }
 }

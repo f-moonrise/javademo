@@ -16,6 +16,8 @@ import java.util.Scanner;
 public class Test {
     Scanner in = new Scanner(System.in);
     UserController uc = new UserController();
+    ProductsController pc = new ProductsController();
+
 
     public static void main(String[] args){
         ProductsDao pd = new ProductsDao();
@@ -58,7 +60,29 @@ public class Test {
             Util.gong();
             System.out.println("请输出你的选择:");
             int fs = in.nextInt();
-            uc.gong(fs,asd);
+            if(fs==1){
+                pc.showProducts();
+            }else if(fs==2){
+                pc.chaProducts();
+            }else if(fs==3){
+                pc.paiMai(asd);
+            }else if(fs==4){
+                uc.chong(asd);
+            }else if(fs==5){
+                uc.showUser(asd);
+            }else if(fs==6){
+                uc.youxi(asd);
+            }else if(fs==7){
+                uc.showInte();
+            }else if(fs==8){
+                uc.shangjia(asd);
+            }else if(fs==9){
+                pc.paip();
+            }else if(fs==10){
+                uc.cleang(asd);
+            }else if(fs==0){
+                loop();
+            }
         }
     }
 
@@ -88,44 +112,4 @@ public class Test {
 
 
 
-
-
-
-
-
-
-
-
-//
-//    //商品的上架
-//    public static void shangjia(){
-//        System.out.println("请输入你要拍卖商品的信息:包括编号id，名字name,价格price");
-//        String id = in.next();
-//        String name = in.next();
-//        int price = in.nextInt();
-//        Products p = new Products(id,name,price);
-//
-//        for(int i=0;i<products.length;i++){
-//            if(products[i]==null){
-//                products[i] = p;
-//            }
-//        }
-//    }
-//
-//    //商品排行榜
-//    public static void paihangb(){
-//        for(int i=0;i<products.length;i++){
-//
-//        }
-//    }
-//
-//    //结算模块
-
 }
-//            System.out.println("石头剪刀布游戏");
-//                    System.out.println("1、注册");
-//                    System.out.println("2、登录");
-//                    System.out.println("3、注销");
-//                    System.out.println("4、排行榜");
-//                    System.out.println("5、游戏");
-//                    System.out.println("6、退出");

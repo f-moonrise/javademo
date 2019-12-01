@@ -42,8 +42,7 @@ public class UserController {
 
     //排行榜
     public void showInte(){
-        String s = users.showInte();
-        System.out.println(s);
+        users.showInte();
     }
 
     //游戏
@@ -55,24 +54,46 @@ public class UserController {
         System.out.println(s);
     }
 
-    //功能
-    public void gong(int fs,int asd){
-        if(fs==1){
-            pc.showProducts();
-        }else if(fs==2){
-            pc.chaProducts();
-        }else if(fs==3){
-            pc.paiMai(asd);
-        }else if(fs==4){
-            chong(asd);
-        }else if(fs==5){
-            users.showUser(asd);
-        }else if(fs==6){
-            youxi(asd);
-        }else if(fs==7){
-            showInte();
-        }else if(fs==0){
-//                show();
+    //清空购物车
+    public void cleang(int asd){
+        Util.cleang();
+        String s = users.cleang(asd);
+        System.out.println(s);
+    }
+
+    //商品的上架
+    public void shangjia(int asd) {
+        String s = users.shangjia(asd);
+        System.out.println(s);
+        if(s.equals("符合上架资格")){
+            pc.shangjia(asd);
         }
     }
+
+//    //功能
+//    public void gong(int fs,int asd){
+//        if(fs==1){
+//            pc.showProducts();
+//        }else if(fs==2){
+//            pc.chaProducts();
+//        }else if(fs==3){
+//            pc.paiMai(asd);
+//        }else if(fs==4){
+//            chong(asd);
+//        }else if(fs==5){
+//            users.showUser(asd);
+//        }else if(fs==6){
+//            youxi(asd);
+//        }else if(fs==7){
+//            showInte();
+//        }else if(fs==8){
+//            pc.shangjia(asd);
+//        }else if(fs==9){
+//            pc.paip();
+//        }else if(fs==10){
+//            cleang(asd);
+//        }else if(fs==0){
+////                show();
+//        }
+//    }
 }

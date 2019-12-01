@@ -213,6 +213,7 @@
       <workItem from="1575076039068" duration="9699000" />
       <workItem from="1575096811244" duration="6559000" />
       <workItem from="1575110276943" duration="10485000" />
+      <workItem from="1575166744554" duration="8816000" />
     </task>
     <servers />
   </component>
@@ -262,11 +263,6 @@
           <url>file://$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/Test3.java</url>
           <line>28</line>
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/service/ProductsService.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

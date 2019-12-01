@@ -7,8 +7,8 @@ import com.test.eleven.eleven29.shitou.pojo.Products;
  * @date 2019/11/30 10:53
  */
 public class ProductsDao {
-        public static Products[] products = new Products[15];
-        //商品初始化
+    public static Products[] products = new Products[15];
+    //商品初始化
     public void chup(){
         Products p = new Products(0, "主宰", 18888);
         products[0] = p;
@@ -82,4 +82,45 @@ public class ProductsDao {
         return "没有找到该商品";
     }
 
+    //商品的上架
+    public int shangjia(String name,int price,int asd){
+        for(int i=0;i<products.length;i++){
+            if(products[i]==null){
+                products[i] = new Products(i,name,price);
+                return 1;
+            }
+        }
+        return 0;
+    }
+
+    //商品排行榜
+    public void paip(){
+        //积分排序
+        for(int i=0;i<products.length;i++){
+            if(products[i]!=null&&products[i].getPname()!=null){
+                int maxIndex = i;
+                int max = products[i].getPrice();
+                for(int j=i+1;j<products.length;j++){
+                    if(products[j]!=null&&products[j].getPname()!=null&&max<products[j].getPrice()){
+                        maxIndex = j;
+                    }
+                }
+
+                if(maxIndex != i){
+                    products[maxIndex] = products[i];
+                }
+            }
+        }
+    }
+
+    //排行榜打印
+    public void showp(){
+        int count = 0;
+        for(int i=0;i<10;i++){
+            if(products[i].getPname()!=null){
+                count = count + 1;
+                System.out.println("第" + count + "名" +" 名称:" + products[i].getPname()+ " 价格:" + products[i].getPrice());
+            }
+        }
+    }
 }

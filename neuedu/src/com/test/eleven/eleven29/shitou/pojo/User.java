@@ -9,6 +9,15 @@ public class User {
     private String psd;
     private int Integral;
     private Products[] gcar = new Products[10];
+    private Products[] bao = new Products[10];
+
+    public Products[] getBao() {
+        return bao;
+    }
+
+    public void setBao(Products[] bao) {
+        this.bao = bao;
+    }
 
     public Products[] getGcar() {
         return gcar;
@@ -49,10 +58,11 @@ public class User {
         Integral = integral;
     }
 
-    public User(String name, String psd, int integral,Products[] gcar) {
+    public User(String name, String psd, int integral,Products[] gcar,Products[] bao) {
         this.name = name;
         this.psd = psd;
         this.Integral = integral;
         this.gcar = gcar;
+        this.bao = bao;
     }
 }

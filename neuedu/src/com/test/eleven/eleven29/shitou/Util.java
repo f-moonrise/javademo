@@ -35,6 +35,14 @@ public class Util {
         System.out.println("******************************");
     }
 
+    public static void shangjia(){
+        System.out.println("******************************");
+        System.out.println("*********欢迎来到上架处*********");
+        System.out.println("*****请选择你要上架的商品信息*****");
+        System.out.println("*****依次输入商品的名称和价格*****");
+        System.out.println("******************************");
+    }
+
     public static void select(){
         System.out.println("******************************");
         System.out.println("*********欢迎来到查询处*********");
@@ -54,7 +62,7 @@ public class Util {
         System.out.println("*******输入1继续拍卖******");
         System.out.println("*******输入2查看商品******");
         System.out.println("*******输入0退出拍卖******");
-        System.out.println("*******返回登录页面*******");
+        System.out.println("*******返回功能页面*******");
         System.out.println("************************");
     }
 
@@ -68,6 +76,9 @@ public class Util {
         System.out.println("*******输入5个人信息******");
         System.out.println("*******输入6进入游戏******");
         System.out.println("*******输入7游戏排名******");
+        System.out.println("*******输入8商品上架******");
+        System.out.println("*******输入9商品排名******");
+        System.out.println("*******输入10清空购物车***");
         System.out.println("*******输入0退出账号******");
         System.out.println("************************");
     }
@@ -77,6 +88,14 @@ public class Util {
         System.out.println("*******欢迎来到查询模块*******");
         System.out.println("********输入1-查询编号********");
         System.out.println("********输入2-查询名称********");
+        System.out.println("****************************");
+    }
+
+    public static void cleang(){
+        System.out.println("*****************************");
+        System.out.println("********欢迎来到购物车********");
+        System.out.println("**如果已有积分小于购物车里物品**");
+        System.out.println("********会导致清空失败********");
         System.out.println("****************************");
     }
 
