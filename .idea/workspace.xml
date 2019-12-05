@@ -2,20 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve03/Test9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/talentImpl/Empty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/talentImpl/Jupiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/talentImpl/Mars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/talentImpl/Mercury.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/talentImpl/Saturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/talentImpl/Venus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/testing/SpecialTe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/testing/TestEmpty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/testing/TestJupiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/testing/TestMars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/testing/TestMercury.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/testing/TestQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/testing/TestSaturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/testing/TestSpecial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Impl/testing/TestVenus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Reward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Util/Checkout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Util/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/Util/SpecialEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/talent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/client/SolarSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/client/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/common/CommonFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/common/FrameUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/constant/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/demo/MyFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/demo/MyFrame02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/demo/MyFrame03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/entity/Earth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/entity/Moon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/entity/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/entity/Sun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/Earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/Jupiter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/Mars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/Mercury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/Moon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/Neptune.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/Saturn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/Sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/Uranus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/Venus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/comet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/f6ff0197009f157dbf3ddcd69e4a6442.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar/src/img/冥王星.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/controller/ProductsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/dao/ProductsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/dao/ProductsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/service/ProductsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/service/ProductsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/eleven/eleven29/shitou/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven29/shitou/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven29/shitou/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven29/shitou/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven29/shitou/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven29/shitou/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven29/shitou/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven29/shitou/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven29/shitou/dao/UserDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven29/shitou/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/eleven/eleven29/shitou/service/UserService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,9 +87,13 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="javademo" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,7 +111,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/neuedu/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/solar/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,14 +124,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Github\javademo\neuedu\src" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo\solar\src\img" />
+      <recent name="E:\Github\javademo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.test.eleven.eleven29.shitou.pojo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Github\javademo" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo\solar\src" />
+      <recent name="E:\Github\javademo\solar" />
+      <recent name="E:\Github\javademo\neuedu\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,13 +149,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="ProductsDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven29.shitou.dao.ProductsDao" />
+  <component name="RunManager" selected="Application.LoginTest">
+    <configuration name="LoginTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.zhouce1.LoginTest" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven29.shitou.dao.*" />
+          <option name="PATTERN" value="com.test.twelve.zhouce1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven18.Test" />
-      <module name="neuedu" />
+    <configuration name="SolarSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.SolarSystem" />
+      <module name="solar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven18.*" />
+          <option name="PATTERN" value="client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +177,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven29.shitou.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.zhouce1.Test" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven29.*" />
+          <option name="PATTERN" value="com.test.twelve.zhouce1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven29.Test2" />
+    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve03.Test11" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven29.*" />
+          <option name="PATTERN" value="com.test.twelve.twelve03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.eleven.eleven29.Test3" />
+    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve03.Test12" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.eleven.eleven29.*" />
+          <option name="PATTERN" value="com.test.twelve.twelve03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,10 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoginTest" />
+        <item itemvalue="Application.SolarSystem" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ProductsDao" />
-        <item itemvalue="Application.Test (2)" />
-        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Test12" />
+        <item itemvalue="Application.Test11" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +270,14 @@
       <workItem from="1575076039068" duration="9699000" />
       <workItem from="1575096811244" duration="6559000" />
       <workItem from="1575110276943" duration="10485000" />
-      <workItem from="1575166744554" duration="8816000" />
+      <workItem from="1575166744554" duration="9594000" />
+      <workItem from="1575245184223" duration="2596000" />
+      <workItem from="1575333890894" duration="6793000" />
+      <workItem from="1575351275642" duration="11048000" />
+      <workItem from="1575421325119" duration="927000" />
+      <workItem from="1575522621202" duration="10319000" />
+      <workItem from="1575533970883" duration="12672000" />
+      <workItem from="1575558163593" duration="5108000" />
     </task>
     <servers />
   </component>
