@@ -14,24 +14,24 @@ import java.awt.event.KeyEvent;
  */
 public class Plane extends PlaneWarObject{
 
+    boolean good ;
     static Image[] imgs = new Image[100];
     static {
-        for(int i=0;i<4;i++){ imgs[i] = ImageUtil.images.get("myplane1_0"+(i+1));
+        for(int i=0;i<4;i++){
+            imgs[i] = ImageUtil.images.get("myplane1_0"+(i+1));
         }
     }
 
-    public PlaneWarClient pwc;
-
     public Plane(){}
 
-    public Plane(PlaneWarClient pwc,int x,int y){
+    public Plane(PlaneWarClient pwc,int x,int y,boolean good){
         this.pwc = pwc;
         this.x = x;
         this.y = y;
-//        this.img = ImageUtil.images.get("myplane1");
         this.width = imgs[0].getWidth(null);
         this.height = imgs[0].getHeight(null);
         this.speed = 10;
+        this.good = good;
     }
 
 //    public Plane(int x,int y, Image[] imgs){
@@ -139,7 +139,7 @@ public class Plane extends PlaneWarObject{
      * 发射子弹的方法
      */
     public void shoot(){
-        Bullet bullet = new Bullet(this.x, this.y);
+        Bullet bullet = new Bullet(this.pwc,this.x+this.width, this.y+this.height/2,good);
         this.pwc.bullets.add(bullet);
     }
 }

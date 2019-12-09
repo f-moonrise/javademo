@@ -30,7 +30,7 @@ public class CommonFrame extends Frame {
             }
         });
         //5.设置是否改变窗口大小
-        this.setResizable(true);
+        this.setResizable(false);
         //6.设置题目
         this.setTitle(title);
         //7.设置重绘的多线程

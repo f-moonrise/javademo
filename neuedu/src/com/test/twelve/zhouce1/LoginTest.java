@@ -54,9 +54,33 @@ public class LoginTest {
             User us = store(name);
             //用户不存在,直接进入测试
             Checkout ch = che(us);
+            if(ch instanceof TestEmpty){
+                TestEmpty ch1=(TestEmpty)ch;
+//                System.out.println("ch.p"+ch1.getProperty());
+                resonate(ch1.getProperty(),us.getProperty(),ch );
+            }else if(ch instanceof TestVenus){
+                TestVenus ch2=(TestVenus)ch;
+//                System.out.println("ch.p"+ch2.getProperty());
+                resonate(ch2.getProperty(),us.getProperty(),ch );
+            }else if(ch instanceof TestJupiter){
+                TestJupiter ch3=(TestJupiter)ch;
+//                System.out.println("ch.p"+ch3.getProperty());
+                resonate(ch3.getProperty(),us.getProperty(),ch );
+            }else if(ch instanceof TestMercury){
+                TestMercury ch4=(TestMercury)ch;
+//                System.out.println("ch.p"+ch4.getProperty());
+                resonate(ch4.getProperty(),us.getProperty(),ch );
+            }else if(ch instanceof TestMars){
+                TestMars ch5=(TestMars)ch;
+//                System.out.println("ch.p"+ch5.getProperty());
+                resonate(ch5.getProperty(),us.getProperty(),ch );
+            }else if(ch instanceof TestSaturn){
+                TestSaturn ch6=(TestSaturn)ch;
+//                System.out.println("ch.p"+ch6.getProperty());
+                resonate(ch6.getProperty(),us.getProperty(),ch );
+            }
 
 
-            resonate(ch.property,us.getProperty(),ch );
         }
     }
 
@@ -66,7 +90,7 @@ public class LoginTest {
         System.out.println("cp"+cp);
         if(cp!=null&&up!=null){
             if(!(up.pname().equals("空"))&&cp.equals(up.pname())){
-                System.out.print("因属性共鸣直接通过");
+                System.out.println("因属性共鸣直接通过");
             }else if(up.pname().equals("空")){
                 //空的测试
                 tem();

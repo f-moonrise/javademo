@@ -2,128 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/planewar/planewar.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/client/PlaneWarClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/CommonFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/FrameUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/ImageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Bullet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Moveable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/PlaneWarObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplane/myplane1_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplane/myplane1_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplane/myplane1_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplane/myplane1_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/game.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/client/SolarSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/client/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/common/CommonFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/common/FrameUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/constant/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/demo/MyFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/demo/MyFrame02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/demo/MyFrame03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/entity/Earth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/entity/Moon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/entity/Planet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/entity/Sun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/Earth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/Jupiter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/Mars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/Mercury.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/Moon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/Neptune.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/Saturn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/Sun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/Uranus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/Venus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/bacg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/comet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/f6ff0197009f157dbf3ddcd69e4a6442.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/img/冥王星.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Explode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane/enemyplane0_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane/enemyplane0_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane/enemyplane0_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane/enemyplane0_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane/enemyplane0_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane/enemyplane0_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane/enemyplane0_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane1/enemyplane1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane1/enemyplane1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane1/enemyplane1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane1/enemyplane1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane1/enemyplane1_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/explode/explode0_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/explode/explode0_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/explode/explode0_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/explode/explode0_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/explode/explode0_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/explode1/explode1_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/explode1/explode1_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/explode1/explode1_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/explode1/explode1_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/explode1/explode1_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SmartIM/wechat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SmartIM/wechat.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/Earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/Jupiter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/Mars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/Mercury.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/Moon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/Neptune.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/Saturn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/Sun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/Uranus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/Venus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/client/SolarSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/client/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/comet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/common/CommonFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/common/CommonFrame$MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/common/CommonFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/common/FrameUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/constant/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/demo/MyFrame$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/demo/MyFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/demo/MyFrame02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/demo/MyFrame03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/entity/Earth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/entity/Moon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/entity/Planet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/entity/Sun.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/f6ff0197009f157dbf3ddcd69e4a6442.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/Earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/Jupiter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/Mars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/Mercury.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/Moon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/Neptune.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/Saturn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/Sun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/Uranus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/Venus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/comet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/f6ff0197009f157dbf3ddcd69e4a6442.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/img/冥王星.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/solar/冥王星.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/solar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/solar/solar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/client/SolarSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/client/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/common/CommonFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/common/FrameUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/constant/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/demo/MyFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/demo/MyFrame02.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/demo/MyFrame03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/entity/Earth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/entity/Moon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/entity/Planet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/entity/Sun.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/Earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/Jupiter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/Mars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/Mercury.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/Moon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/Neptune.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/Saturn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/Sun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/Uranus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/Venus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/comet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/f6ff0197009f157dbf3ddcd69e4a6442.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/src/img/冥王星.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/twelve/zhouce1/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/twelve/zhouce1/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/ImageUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Plane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/PlaneWarObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/PlaneWarObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/img/bullet/bullet0_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/img/bullet/bullet0_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/game.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/game.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/solar/com/neuedu/solar/client/SolarSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solar/com/neuedu/solar/client/SolarSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/solar/com/neuedu/solar/client/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solar/com/neuedu/solar/client/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/solar/com/neuedu/solar/common/CommonFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solar/com/neuedu/solar/common/CommonFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/solar/com/neuedu/solar/entity/Earth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/client/PlaneWarClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/client/PlaneWarClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/PlaneWarObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/PlaneWarObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/game.properties" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/game.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar/src/com/neuedu/solar/client/SolarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/client/SolarSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar/src/com/neuedu/solar/client/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/client/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar/src/com/neuedu/solar/common/CommonFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/common/CommonFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solar/src/com/neuedu/solar/entity/Earth.java" beforeDir="false" afterPath="$PROJECT_DIR$/solar/src/com/neuedu/solar/entity/Earth.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +100,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet" />
+    <property name="last_opened_file_path" value="G:/planewar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -183,20 +113,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
-      <recent name="E:\Github\javademo\solar\src\com\neuedu\solar" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Github\javademo\solar\src\img" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplane" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar" />
+      <recent name="E:\Github\javademo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.neuedu.planewar.constant" />
       <recent name="com.test.eleven.eleven29.shitou.pojo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Github\javademo\solar\src\img" />
-      <recent name="E:\Github\javademo" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\explode1" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\enemyplane1" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\explode" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\enemyplane" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolarSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.SolarSystem" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neuedu.solar.client.Test" />
       <module name="solar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="client.*" />
+          <option name="PATTERN" value="com.neuedu.solar.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -280,10 +210,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PlaneWarClient" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.LoginTest" />
         <item itemvalue="Application.SolarSystem (1)" />
         <item itemvalue="Application.MyFrame02" />
-        <item itemvalue="Application.SolarSystem" />
-        <item itemvalue="Application.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +270,13 @@
       <workItem from="1575522621202" duration="10319000" />
       <workItem from="1575533970883" duration="12672000" />
       <workItem from="1575558163593" duration="5108000" />
-      <workItem from="1575591166287" duration="28187000" />
+      <workItem from="1575591166287" duration="29097000" />
+      <workItem from="1575685475543" duration="43000" />
+      <workItem from="1575691787888" duration="56000" />
+      <workItem from="1575817680482" duration="359000" />
+      <workItem from="1575850290510" duration="23254000" />
+      <workItem from="1575886218963" duration="32000" />
+      <workItem from="1575887137314" duration="685000" />
     </task>
     <servers />
   </component>

@@ -58,16 +58,17 @@ public class SolarSystem extends CommonFrame {
     public void paint(Graphics g) {
         g.drawImage(FrameUtil.getImage("com/neuedu/solar/img/bacg.jpg"),0,0, Constant.FRAME_WIDTH,Constant.FRAME_HEIGHT,null);
         sun.draw(g);
-        mercury.draw(g);
-        venus.draw(g);
-        earth.draw(g);
-        moon.draw(g);
-        mar.draw(g);
         //小行星
         for(int i=0;i<smallPlanets.size();i++){
             Planet p = smallPlanets.get(i);
             p.drawstar(g);
         }
+        mercury.draw(g);
+        venus.draw(g);
+        earth.draw(g);
+        moon.draw(g);
+        mar.draw(g);
+
         jupiter.draw(g);
         saturn.draw(g);
         uranus.draw(g);

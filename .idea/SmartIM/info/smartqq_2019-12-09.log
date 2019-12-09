@@ -1,0 +1,65 @@
+2019-12-09 08:13:31.396 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取 uuid ... 
+2019-12-09 08:13:31.637 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 正在获取二维码 ... 成功
+
+2019-12-09 08:13:32.777 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2019-12-09 08:13:58.001 [Thread-4] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2019-12-09 08:13:59.002 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2019-12-09 08:14:24.065 [Thread-4] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2019-12-09 08:14:25.074 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2019-12-09 08:14:50.144 [Thread-4] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2019-12-09 08:14:51.144 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2019-12-09 08:15:16.207 [Thread-4] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2019-12-09 08:15:17.208 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2019-12-09 08:15:42.279 [Thread-4] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2019-12-09 08:15:43.280 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2019-12-09 08:16:08.346 [Thread-4] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2019-12-09 08:16:08.848 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2019-12-09 08:16:33.906 [Thread-4] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2019-12-09 08:16:34.408 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2019-12-09 08:16:59.473 [Thread-4] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2019-12-09 08:16:59.975 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2019-12-09 08:17:25.043 [Thread-4] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
+2019-12-09 08:17:25.545 [Thread-4] INFO  io.github.biezhi.wechat.api.WechatClient -
+				[*] 请使用微信扫描二维码以登录 ... 
+
+2019-12-09 08:17:50.608 [Thread-4] WARN  io.github.biezhi.wechat.api.WechatApi -
+				[登陆超时] 
+
