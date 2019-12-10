@@ -31,9 +31,17 @@ public class EnemyPlane1 extends PlaneWarObject{
         this.good = good;
     }
 
+//    int radius = 200;
+//    int a = 0;
     @Override
     public void move() {
         this.x -= speed;
+//        if(a>360){
+//            a=0;
+//        }
+//        a = a+10;
+//        this.x -= speed + radius*Math.sin(a);
+//        this.y = (int)(radius*Math.cos(a));
     }
 
     int count = 0;
@@ -48,7 +56,7 @@ public class EnemyPlane1 extends PlaneWarObject{
         g.drawImage(images[count],x,y,null);
         count++;
         move();
-        if(r.nextInt(1000)>995){
+        if(r.nextInt(1000)>900){
             shoot();
         }
     }

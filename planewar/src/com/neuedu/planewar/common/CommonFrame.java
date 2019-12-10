@@ -32,10 +32,27 @@ public class CommonFrame extends Frame {
         //6.设置题目
         this.setTitle(title);
         //7.设置重绘的多线程
+        //游戏线程
         new MyThread().start();
-        //图标
-
+        //开场动画线程
+        //new MyThread1().start();
     }
+
+    class MyThread1 extends Thread{
+        @Override
+        public void run() {
+            //无限调用panit()的业务
+            for(;;){
+                repaint();
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
 
     /**
      * 实现JAVA多线程步骤
@@ -49,6 +66,7 @@ public class CommonFrame extends Frame {
             for(;;){
                 repaint();
                 try {
+//                    Thread.sleep(1000);
                     Thread.sleep(40);
                 } catch (InterruptedException e) {
                     e.printStackTrace();

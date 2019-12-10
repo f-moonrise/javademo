@@ -27,6 +27,11 @@ public class ImageUtil {
             images.put("bullet0_0"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"bullet/bullet0_0" + (i+1) +".png"));
         }
 
+        //我方飞机爆炸
+        for(int i=0;i<5;i++){
+            images.put("myplanex1_0"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"myplanex/myplanex1_0"+(i+1)+".png"));
+        }
+
         //敌方飞机的图片
         for (int i=0;i<7;i++){
             images.put("enemyplane0_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"enemyplane/enemyplane0_" + (i+1) +".png"));
@@ -41,10 +46,37 @@ public class ImageUtil {
         for (int i=0;i<5;i++){
             images.put("enemyplane1_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"enemyplane1/enemyplane1_" + (i+1) +".png"));
         }
-//
-//        //敌方飞机1爆炸的图片
-//        for (int i=0;i<5;i++){
-//            images.put("explode1_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"explode1/explode1_" + (i+1) +".png"));
-//        }
+
+        //敌方飞机1爆炸的图片
+        for (int i=0;i<5;i++){
+            images.put("explode1_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"explode1/explode1_" + (i+1) +".png"));
+        }
+
+        //敌方飞机2的图片
+        for (int i=0;i<7;i++){
+            images.put("enemyplane2_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"enemyplane2/enemyplane2_" + (i+1) +".png"));
+        }
+
+        //敌方飞机2爆炸的图片
+        for (int i=0;i<5;i++){
+            images.put("explode2_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"explode1/explode1_" + (i+1) +".png"));
+        }
+
+        //血包
+        images.put("HP",FrameUtil.getImage(Constant.IMG_PATH_PRE+"item/HP.png"));
+
+        //护盾
+        images.put("DEF",FrameUtil.getImage(Constant.IMG_PATH_PRE+"item/DEF.png"));
+
+
+        //游戏动画
+        for (int i=0;i<25;i++){
+            images.put("bg_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"bgs/bg_" + (i+1) +".png"));
+        }
+
+        //游戏背景
+        for (int i=0;i<2;i++){
+            images.put("bg1_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"bg/bg1_" + (i+1) +".png"));
+        }
     }
 }
