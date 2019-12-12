@@ -30,9 +30,6 @@ public class Dackbg extends PlaneWarObject{
         this.x -= speed;
     }
 
-
-
-
     @Override
     public void draw(Graphics g) {
         g.drawImage(image,x,y,null);

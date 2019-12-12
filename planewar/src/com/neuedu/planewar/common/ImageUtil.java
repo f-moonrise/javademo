@@ -32,6 +32,11 @@ public class ImageUtil {
             images.put("myplanex1_0"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"myplanex/myplanex1_0"+(i+1)+".png"));
         }
 
+        //我方友军
+        for(int i=0;i<4;i++){
+            images.put("myplanej_0"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"myplanej/myplanej_0"+(i+1)+".png"));
+        }
+
         //敌方飞机的图片
         for (int i=0;i<7;i++){
             images.put("enemyplane0_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"enemyplane/enemyplane0_" + (i+1) +".png"));
@@ -60,6 +65,16 @@ public class ImageUtil {
         //敌方飞机2爆炸的图片
         for (int i=0;i<5;i++){
             images.put("explode2_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"explode1/explode1_" + (i+1) +".png"));
+        }
+
+        //boss的图片
+        for (int i=0;i<8;i++){
+            images.put("boss0_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"boss/boss0_" + (i+1) +".png"));
+        }
+
+        //boss爆炸的图片
+        for (int i=0;i<5;i++){
+            images.put("bossex0_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"bossex/bossex0_" + (i+1) +".png"));
         }
 
         //血包

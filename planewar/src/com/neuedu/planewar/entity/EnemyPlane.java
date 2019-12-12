@@ -2,6 +2,8 @@ package com.neuedu.planewar.entity;
 
 import com.neuedu.planewar.client.PlaneWarClient;
 import com.neuedu.planewar.common.ImageUtil;
+import com.neuedu.planewar.common.MusicUtil;
+import com.neuedu.planewar.constant.Constant;
 
 import java.awt.*;
 import java.util.Random;
@@ -13,6 +15,17 @@ import static com.neuedu.planewar.entity.Plane.imgs;
  * @date 2019/12/9 10:59
  */
 public class EnemyPlane extends PlaneWarObject{
+
+    private int HP = 50;
+
+    public int getHP() {
+        return HP;
+    }
+
+    public void setHP(int HP) {
+        this.HP = HP;
+    }
+
     boolean good ;
     public static Image[] images = new Image[7];
     static {
@@ -36,6 +49,7 @@ public class EnemyPlane extends PlaneWarObject{
     @Override
     public void move() {
         this.x -= speed;
+        outOfBounds();
     }
 
     int count = 0;
@@ -60,4 +74,37 @@ public class EnemyPlane extends PlaneWarObject{
         this.pwc.bullets.add(bullet);
     }
 
+    //飞机与飞机的碰撞
+    public boolean hitPlane(Plane myplane){
+        if(this.good!=myplane.good&&this.getRectangle().intersects(myplane.getRectangle())){
+            //当打到我方飞机时，掉盾掉血
+            if(myplane.getDEF()>0){
+                myplane.setDEF(myplane.getDEF()-50);
+            }else {
+                myplane.setDEF(0);
+                myplane.setHP(myplane.getHP()-50);
+            }
+
+            this.pwc.enemyPlanes.remove(this);
+            new MusicUtil("com/neuedu/planewar/video/炮弹爆炸的声音.mp3", false).start();
+            //如果生命为0游戏结束
+            if(myplane.getHP()<=0){
+                myplane.setHP(0);
+//                System.out.println("游戏结束");
+//                this.pwc.myplanes.remove(myplane);
+                //我方飞机爆炸
+                Planex e = new Planex(pwc,myplane.x,myplane.y);
+                this.pwc.planexes.add(e);
+                //this.pwc.myPlane.;
+            }
+            return true;
+        }
+        return false;
+    }
+
+    private void outOfBounds(){
+        if(x<-300){
+            this.pwc.enemyPlanes.remove(this);
+        }
+    }
 }

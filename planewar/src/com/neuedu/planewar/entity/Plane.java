@@ -3,10 +3,12 @@ package com.neuedu.planewar.entity;
 import com.neuedu.planewar.client.PlaneWarClient;
 import com.neuedu.planewar.common.FrameUtil;
 import com.neuedu.planewar.common.ImageUtil;
+import com.neuedu.planewar.common.MusicUtil;
 import com.neuedu.planewar.constant.Constant;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -20,6 +22,16 @@ public class Plane extends PlaneWarObject{
 
     public int DEF = 100;
     public double maxDEF = DEF;
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
+    }
+
+    public int level = 10;
 
     public BloodBar bb = new BloodBar();
 
@@ -78,23 +90,36 @@ public class Plane extends PlaneWarObject{
 
     @Override
     public void draw(Graphics g) {
-        //画图组的方法
-        if(count > 2){
-            count = 0;
+        if(this.pwc.sikey){
+            //画图组的方法
+            if(count > 2){
+                count = 0;
+            }
+            g.drawImage(imgs[count],x,y,null);
+            count++;
+            move();
+            if(shoot){
+                shoot();
+            }
+            bb.draw(g);
+            if(ji){
+//            ji();
+                this.pwc.key2=true;
+            }else {
+//            this.pwc.myplanej.clear();
+                this.pwc.key2=false;
+            }
+        }else {
+            ji=false;
+            this.pwc.key2=false;
         }
-        g.drawImage(imgs[count],x,y,null);
-        count++;
-        move();
-        if(shoot){
-            shoot();
-        }
-        bb.draw(g);
+
     }
 
     /**
      * 使用开关法创建出4个表示方向的boolean变量
      */
-    public boolean left,up,right,down,shoot;
+    public boolean left,up,right,down,shoot,ji;
 
     /**
      * 飞机按键控制
@@ -117,8 +142,33 @@ public class Plane extends PlaneWarObject{
             case KeyEvent.VK_J:
                 shoot = true;
                 break;
+            case KeyEvent.VK_K:
+                ji = true;
+                break;
         }
     }
+
+
+//    public void ji(){
+
+//        Planej planej = new Planej(pwc,x-200,y+100,true);
+//        this.pwc.myplanej.add(planej);
+//        planej = new Planej(pwc,x-200,y+200,true);
+//        this.pwc.myplanej.add(planej);
+//        planej = new Planej(pwc,x-200,y+300,true);
+//        this.pwc.myplanej.add(planej);
+//        planej = new Planej(pwc,x-200,y-150,true);
+//        this.pwc.myplanej.add(planej);
+//        planej = new Planej(pwc,x-200,y-250,true);
+//        this.pwc.myplanej.add(planej);
+//        planej = new Planej(pwc,x-200,y-350,true);
+//        this.pwc.myplanej.add(planej);
+
+//        for(int i=0;i<5;i++){
+//            Planej planej = new Planej(pwc,x-100,y+(i*100),true);
+//            this.pwc.myplanej.add(planej);
+//        }
+//    }
 
     /**
      * 按键抬起的方法
@@ -139,6 +189,9 @@ public class Plane extends PlaneWarObject{
                 break;
             case KeyEvent.VK_J:
                 shoot = false;
+                break;
+            case KeyEvent.VK_K:
+                ji = false;
                 break;
         }
     }
@@ -165,23 +218,33 @@ public class Plane extends PlaneWarObject{
      * 发射子弹的方法
      */
     public void shoot(){
-        Bullet bullet = new Bullet(this.pwc,this.x+this.width, this.y+this.height/2,good);
+        Bullet bullet = new Bullet(this.pwc,this.x+this.width, this.y,good);
         this.pwc.bullets.add(bullet);
+        new MusicUtil("com/neuedu/planewar/video/子弹射击反弹声响.mp3",false).start();
     }
 
     //血量颜色变化
     class BloodBar {
         public void draw(Graphics g){
             Color c = g.getColor();
-            if(HP>(maxHP*0.7)&&HP<=maxHP){
+            g.drawRect(x,y-10,width+30,8);
+            if(HP>(maxHP*0.7)){
                 g.setColor(Color.GREEN);
+                if(HP>maxHP){
+                    g.fillRect(x,y-10,(int)((width+30)),10);
+                }else {
+                    g.fillRect(x,y-10,(int)((width+30)*(HP/maxHP)),10);
+                }
+
             }else if(HP>=(maxHP*0.3)&&HP<=(maxHP*0.7)){
                 g.setColor(Color.YELLOW);
+                g.fillRect(x,y-10,(int)((width+30)*(HP/maxHP)),10);
             }else {
                 g.setColor(Color.RED);
+                g.fillRect(x,y-10,(int)((width+30)*(HP/maxHP)),10);
             }
-            g.drawRect(x,y-10,width+30,8);
-            g.fillRect(x,y-10,(int)((width+30)*(HP/maxHP)),10);
+
+
             g.setColor(c);
         }
     }
@@ -222,4 +285,6 @@ public class Plane extends PlaneWarObject{
         }
         return false;
     }
+
+
 }

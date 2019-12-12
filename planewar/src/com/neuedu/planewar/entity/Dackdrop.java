@@ -41,17 +41,29 @@ public class Dackdrop extends PlaneWarObject{
     }
 
 
-
+    int fs=0;
     @Override
     public void draw(Graphics g) {
-        //画图组的方法
-        if(count > 24){
-            count = 0;
+        fs++;
+        if(fs%30==0){
+            fs=0;
         }
-        g.drawImage(images[count],x,y,null);
-        count++;
-        move();
+        //画图组的方法
+   if(fs%30==0){
+       count++;
+       if(count==25){
+            count=0;
+           this.pwc.dackdrops.remove(this);
+           this.pwc.key=true;
+           this.pwc.key1=false;
+           this.pwc.mukey=true;
+       }
+       g.drawImage(images[count],x,y,null);
+
+   }else {
+       g.drawImage(images[count],x,y,null);
+     }
+
+
     }
-
-
 }

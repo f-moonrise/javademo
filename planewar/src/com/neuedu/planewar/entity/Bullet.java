@@ -2,6 +2,7 @@ package com.neuedu.planewar.entity;
 
 import com.neuedu.planewar.client.PlaneWarClient;
 import com.neuedu.planewar.common.ImageUtil;
+import com.neuedu.planewar.common.MusicUtil;
 import com.neuedu.planewar.constant.Constant;
 
 import java.awt.*;
@@ -60,17 +61,20 @@ public class Bullet extends PlaneWarObject{
     //敌一号飞机
     private boolean hitEnemyPlane(EnemyPlane enemyPlane){
         if(this.good!=enemyPlane.good&&this.getRectangle().intersects(enemyPlane.getRectangle())){
-            this.pwc.enemyPlanes.remove(enemyPlane);
-
-            Explode e = new Explode(pwc,enemyPlane.x,enemyPlane.y);
-            this.pwc.explodes.add(e);
-
-            //出道具
-            if(r.nextInt(100)>60){
-                Item item = new Item(pwc,enemyPlane.x,enemyPlane.y,r.nextInt(2)+1);
-                this.pwc.items.add(item);
+            if(enemyPlane.getHP()>=0){
+                enemyPlane.setHP(enemyPlane.getHP()-this.pwc.myplanes.get(0).getLevel());
+            }else {
+                this.pwc.enemyPlanes.remove(enemyPlane);
+                Explode e = new Explode(pwc,enemyPlane.x,enemyPlane.y);
+                this.pwc.explodes.add(e);
+                new MusicUtil("com/neuedu/planewar/video/炮弹爆炸的声音.mp3",false).start();
+                this.pwc.socre += 10;
+                //出道具
+                if(r.nextInt(100)>90){
+                    Item item = new Item(pwc,enemyPlane.x,enemyPlane.y,r.nextInt(2)+1);
+                    this.pwc.items.add(item);
+                }
             }
-
             this.pwc.bullets.remove(this);
             return true;
         }
@@ -88,19 +92,22 @@ public class Bullet extends PlaneWarObject{
     }
 
     //敌二号飞机
-    public boolean hitEnemyPlane1(EnemyPlane1 enemyPlane1){
-        if(this.good!=enemyPlane1.good&&this.getRectangle().intersects(enemyPlane1.getRectangle())){
-            this.pwc.enemyPlanes1.remove(enemyPlane1);
-
-            Explode1 e = new Explode1(pwc,enemyPlane1.x,enemyPlane1.y);
-            this.pwc.explodes1.add(e);
-
-            //出道具
-            if(r.nextInt(100)>60){
-                Item item = new Item(pwc,enemyPlane1.x,enemyPlane1.y,r.nextInt(2)+1);
-                this.pwc.items.add(item);
+    public boolean hitEnemyPlane1(EnemyPlane1 enemyPlane1) {
+        if (this.good != enemyPlane1.good && this.getRectangle().intersects(enemyPlane1.getRectangle())) {
+            if (enemyPlane1.getHP() >= 0) {
+                enemyPlane1.setHP(enemyPlane1.getHP() - this.pwc.myplanes.get(0).getLevel());
+            } else {
+                this.pwc.enemyPlanes1.remove(enemyPlane1);
+                Explode1 e = new Explode1(pwc, enemyPlane1.x, enemyPlane1.y);
+                this.pwc.explodes1.add(e);
+                new MusicUtil("com/neuedu/planewar/video/炮弹爆炸的声音.mp3", false).start();
+                this.pwc.socre += 20;
+                //出道具
+                if (r.nextInt(100) > 90) {
+                    Item item = new Item(pwc, enemyPlane1.x, enemyPlane1.y, r.nextInt(2) + 1);
+                    this.pwc.items.add(item);
+                }
             }
-
             this.pwc.bullets.remove(this);
             return true;
         }
@@ -118,21 +125,59 @@ public class Bullet extends PlaneWarObject{
     }
 
     //敌三号飞机
-    public boolean hitEnemyPlane2(EnemyPlane2 enemyPlane2){
-        if(this.good!=enemyPlane2.good&&this.getRectangle().intersects(enemyPlane2.getRectangle())){
-            this.pwc.enemyPlanes2.remove(enemyPlane2);
-
-            Explode2 e = new Explode2(pwc,enemyPlane2.x,enemyPlane2.y);
-            this.pwc.explodes2.add(e);
-
-            //出道具
-            if(r.nextInt(100)>60){
-                Item item = new Item(pwc,enemyPlane2.x,enemyPlane2.y,r.nextInt(2)+1);
-                this.pwc.items.add(item);
+    public boolean hitEnemyPlane2(EnemyPlane2 enemyPlane2) {
+        if (this.good != enemyPlane2.good && this.getRectangle().intersects(enemyPlane2.getRectangle())) {
+            if (enemyPlane2.getHP() >= 0) {
+                enemyPlane2.setHP(enemyPlane2.getHP() - this.pwc.myplanes.get(0).getLevel());
+            } else {
+                this.pwc.enemyPlanes2.remove(enemyPlane2);
+                Explode2 e = new Explode2(pwc, enemyPlane2.x, enemyPlane2.y);
+                this.pwc.explodes2.add(e);
+                new MusicUtil("com/neuedu/planewar/video/炮弹爆炸的声音.mp3", false).start();
+                this.pwc.socre += 20;
+                //出道具
+                if (r.nextInt(100) > 90) {
+                    Item item = new Item(pwc, enemyPlane2.x, enemyPlane2.y, r.nextInt(2) + 1);
+                    this.pwc.items.add(item);
+                }
             }
-
             this.pwc.bullets.remove(this);
             return true;
+        }
+        return false;
+    }
+
+    //BOSS
+    public boolean hitboss(Boss boss) {
+        if (this.good != boss.good && this.getRectangle().intersects(boss.getRectangle())) {
+            if (boss.getHP() >= 0) {
+                boss.setHP(boss.getHP() - this.pwc.myplanes.get(0).getLevel());
+//                new MusicUtil("com/neuedu/planewar/video/龙咆哮.mp3", false).start();
+            } else {
+//                this.pwc.bosses.remove(boss);
+                Bossex e = new Bossex(pwc, boss.x, boss.y);
+                this.pwc.bossexes.add(e);
+                new MusicUtil("com/neuedu/planewar/video/炮弹爆炸的声音.mp3", false).start();
+                this.pwc.socre += 2000;
+                //出道具
+                if (r.nextInt(100) > 50) {
+                    Item item = new Item(pwc, boss.x, boss.y, r.nextInt(2) + 1);
+                    this.pwc.items.add(item);
+                }
+
+            }
+            this.pwc.bullets.remove(this);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean hitboss(List<Boss> bosses){
+        for(int i=0;i<bosses.size();i++){
+            Boss ep = bosses.get(i);
+            if(hitboss(ep)){
+                return true;
+            }
         }
         return false;
     }
@@ -157,15 +202,17 @@ public class Bullet extends PlaneWarObject{
                 myplane.setHP(myplane.getHP()-10);
             }
 
-            //我方飞机爆炸
-            Planex e = new Planex(pwc,myplane.x,myplane.y);
-            this.pwc.planexes.add(e);
-
             this.pwc.bullets.remove(this);
 
             //如果生命为0游戏结束
             if(myplane.getHP()<=0){
-                System.out.println("游戏结束");
+                myplane.setHP(0);
+//                this.pwc.myplanes.remove(myplane);
+//                System.out.println("游戏结束");
+                //我方飞机爆炸
+                Planex e = new Planex(pwc,myplane.x,myplane.y);
+                this.pwc.planexes.add(e);
+                //this.pwc.myPlane.;
             }
             return true;
         }

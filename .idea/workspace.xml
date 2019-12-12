@@ -1,99 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="planewar:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/JLayer_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/client/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/MusicUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackbg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackbg1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackdrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Explode1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Explode2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Planex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bg/bg1_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bg/bg1_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bgs/bg_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane2/enemyplane2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane2/enemyplane2_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane2/enemyplane2_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane2/enemyplane2_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane2/enemyplane2_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane2/enemyplane2_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/enemyplane2/enemyplane2_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/item/DEF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/item/HP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanex/myplanex1_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanex/myplanex1_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanex/myplanex1_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanex/myplanex1_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanex/myplanex1_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanex/myplanex1_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/video/我还有点小糊涂-原声带-1772515578-0.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/planewar_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Bossex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Planej.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bossex/bossex0_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bossex/bossex0_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bossex/bossex0_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bossex/bossex0_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bossex/bossex0_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanej/myplanej_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanej/myplanej_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanej/myplanej_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanej/myplanej_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/video/子弹射击反弹声响.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/video/炮弹爆炸的声音.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/video/背景音乐.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/video/龙咆哮.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/CommonFrame$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/CommonFrame$MyThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/CommonFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/CommonFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/ImageUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Bullet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Dackbg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Dackbg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Dackdrop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Dackdrop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Explode2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Explode2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Plane$BloodBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Plane$BloodBar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Plane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/img/bullet/bullet0_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/img/bullet/bullet0_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/img/bullet/bullet0_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/img/bullet/bullet0_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/img/bullet/bullet0_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/img/bullet/bullet0_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/img/bullet/bullet0_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/img/bullet/bullet0_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/game.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/game.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planewar/planewar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/planewar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/client/PlaneWarClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/client/PlaneWarClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/CommonFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/CommonFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/ImageUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackbg.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackbg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackdrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackdrop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane1.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane2.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bullet0_06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/game.properties" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/game.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solar/solar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/solar/solar.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,36 +102,37 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.23244782" />
     <property name="project.structure.side.proportion" value="0.63369966" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\boss" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bossex" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\enemyplane2" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplanex" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\video" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bg" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.neuedu.planewar.constant" />
       <recent name="com.test.eleven.eleven29.shitou.pojo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\video" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplanej" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bg" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bgs" />
-      <recent name="E:\Github\javademo\solar\src\img" />
-      <recent name="E:\Github\javademo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,6 +284,8 @@
       <workItem from="1575886218963" duration="32000" />
       <workItem from="1575887137314" duration="685000" />
       <workItem from="1575936575365" duration="40163000" />
+      <workItem from="1576023129313" duration="37061000" />
+      <workItem from="1576109801817" duration="13124000" />
     </task>
     <servers />
   </component>
