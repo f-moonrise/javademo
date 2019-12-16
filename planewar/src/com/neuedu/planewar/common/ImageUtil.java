@@ -77,6 +77,10 @@ public class ImageUtil {
             images.put("bossex0_"+(i+1),FrameUtil.getImage(Constant.IMG_PATH_PRE+"bossex/bossex0_" + (i+1) +".png"));
         }
 
+        //boss子弹
+        images.put("bossbu",FrameUtil.getImage(Constant.IMG_PATH_PRE+"bullet/bossbu.png"));
+
+
         //血包
         images.put("HP",FrameUtil.getImage(Constant.IMG_PATH_PRE+"item/HP.png"));
 

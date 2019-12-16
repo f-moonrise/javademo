@@ -134,8 +134,11 @@ public class Boss extends PlaneWarObject {
     }
 
     public void shoot() {
-        Bullet bullet = new Bullet(this.pwc, this.x , this.y + this.height / 2, good);
-        this.pwc.bullets.add(bullet);
+        BulletBo bulletBo = new BulletBo(this.pwc, this.x , this.y + this.height / 2);
+        this.pwc.bulletBos.add(bulletBo);
+
+//        Bullet bullet = new Bullet(this.pwc, this.x , this.y + this.height / 2, good);
+//        this.pwc.bullets.add(bullet);
     }
 
     //血量颜色变化

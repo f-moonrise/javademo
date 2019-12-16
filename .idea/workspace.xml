@@ -7,55 +7,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/planewar_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Bossex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Planej.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss/boss0_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bossex/bossex0_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bossex/bossex0_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bossex/bossex0_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bossex/bossex0_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bossex/bossex0_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanej/myplanej_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanej/myplanej_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanej/myplanej_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/myplanej/myplanej_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/video/子弹射击反弹声响.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/video/炮弹爆炸的声音.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/video/背景音乐.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/video/龙咆哮.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/BigDecimalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/BigDecimalDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/BigIntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/BigIntegerDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/CalendarDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/CalendarDemp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/CalendarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/CharacterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/DateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/DateDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/DateFormatDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/InetgerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/IntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/IntegerDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/IntegerDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/IntegerDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/MathDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/MathDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/MyYearOldDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/RandomDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/SystemDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/SystemDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/BulletBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bossbu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/planewar_jar/planewar.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/planewar_jar/planewar.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/twelve/twelve10/RegexDemo8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/twelve/twelve10/RegexDemo8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/ImageUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Dackbg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Dackbg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Dackdrop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Dackdrop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/EnemyPlane2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Explode2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Explode2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Plane$BloodBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Plane$BloodBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Plane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/planewar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/planewar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/client/PlaneWarClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/client/PlaneWarClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/ImageUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Bullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackbg.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackbg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackdrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Dackdrop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane1.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane2.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/EnemyPlane2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Boss.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,23 +113,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\video" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplanej" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bg" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bgs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neuedu.planewar.constant" />
+      <recent name="com.test.eleven.eleven29.shitou.pojo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\boss" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bossex" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\enemyplane2" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplanex" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.neuedu.planewar.constant" />
-      <recent name="com.test.eleven.eleven29.shitou.pojo" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\video" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplanej" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bg" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bgs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -148,19 +145,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.PlaneWarClient">
-    <configuration name="MusicUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.neuedu.planewar.common.MusicUtil" />
-      <module name="planewar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.neuedu.planewar.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlaneWarClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.neuedu.planewar.client.PlaneWarClient" />
       <module name="planewar" />
@@ -174,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexDemo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve10.RegexDemo6" />
+    <configuration name="StringBufferDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve16.StringBufferDemo5" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.twelve.twelve10.*" />
+          <option name="PATTERN" value="com.test.twelve.twelve16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegexDemo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve10.RegexDemo8" />
+    <configuration name="StringBufferDemo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve16.StringBufferDemo6" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.twelve.twelve10.*" />
+          <option name="PATTERN" value="com.test.twelve.twelve16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +184,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.neuedu.planewar.client.Test" />
-      <module name="planewar" />
+    <configuration name="StringBufferDemo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve16.StringBufferDemo7" />
+      <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.neuedu.planewar.client.*" />
+          <option name="PATTERN" value="com.test.twelve.twelve16.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBufferDemo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve16.StringBufferDemo8" />
+      <module name="neuedu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.twelve.twelve16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,10 +213,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PlaneWarClient" />
-        <item itemvalue="Application.MusicUtil" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.RegexDemo8" />
-        <item itemvalue="Application.RegexDemo6" />
+        <item itemvalue="Application.StringBufferDemo8" />
+        <item itemvalue="Application.StringBufferDemo7" />
+        <item itemvalue="Application.StringBufferDemo6" />
+        <item itemvalue="Application.StringBufferDemo5" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +282,10 @@
       <workItem from="1575887137314" duration="685000" />
       <workItem from="1575936575365" duration="40163000" />
       <workItem from="1576023129313" duration="37061000" />
-      <workItem from="1576109801817" duration="13124000" />
+      <workItem from="1576109801817" duration="13422000" />
+      <workItem from="1576147646168" duration="5006000" />
+      <workItem from="1576221657546" duration="7000" />
+      <workItem from="1576456163188" duration="15685000" />
     </task>
     <servers />
   </component>

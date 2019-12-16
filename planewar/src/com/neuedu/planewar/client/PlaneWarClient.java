@@ -39,6 +39,8 @@ public class PlaneWarClient extends CommonFrame {
     public List<Planej> myplanej = new ArrayList<>();
 
     public List<Bullet> bullets = new ArrayList<>();
+    public List<BulletBo> bulletBos = new ArrayList<>();
+
 
     public List<EnemyPlane> enemyPlanes = new ArrayList<>();
     public List<Explode> explodes = new ArrayList<>();
@@ -286,6 +288,11 @@ public class PlaneWarClient extends CommonFrame {
 //                    bosses.get(i).draw(g);
                     Boss boss =bosses.get(i);
                     boss.draw(g);
+                    for (int j=0;j<bulletBos.size();j++){
+                        BulletBo b = bulletBos.get(j);
+                        b.draw(g);
+                        b.hitPlane(myplanes.get(0));
+                    }
                     for (int j=0;j<bullets.size();j++){
                         Bullet b = bullets.get(j);
                         b.hitboss(bosses);
