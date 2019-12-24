@@ -16,10 +16,10 @@ public class LoginTest {
     static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args){
-        while (true){
+//        while (true){
             login();
 
-        }
+//        }
 
 
     }
@@ -86,8 +86,8 @@ public class LoginTest {
 
     //判断自己属性是否与关卡属性发生共鸣
     public static void resonate(String cp,Property up,Checkout ch ){
-        System.out.println("up.pname"+up.pname());
-        System.out.println("cp"+cp);
+//        System.out.println("up.pname"+up.pname());
+//        System.out.println("cp"+cp);
         if(cp!=null&&up!=null){
             if(!(up.pname().equals("空"))&&cp.equals(up.pname())){
                 System.out.println("因属性共鸣直接通过");

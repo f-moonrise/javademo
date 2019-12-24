@@ -7,52 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/BigDecimalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/BigDecimalDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/BigIntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/BigIntegerDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/CalendarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/CalendarDemp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/CalendarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/CharacterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/DateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/DateDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/DateFormatDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/InetgerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/IntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/IntegerDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/IntegerDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/IntegerDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/MathDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/MathDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/MyYearOldDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/RandomDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/SystemDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve12/SystemDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve16/StringBufferDemo9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/BulletBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/bullet/bossbu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test1/Test1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test1/src/Five.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve18/CollectDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve18/CollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve18/CollectionDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve18/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve18/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve19/LinkedListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve19/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve19/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/Bin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/BinImpl/HarmfulBin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/BinImpl/KitchenBin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/BinImpl/OtherBin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/BinImpl/RankBin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/BinImpl/RecyclableBin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/Garbage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/GarbageImpl/HarmfulWaste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/GarbageImpl/KitchenWaste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/GarbageImpl/OtherWaste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/GarbageImpl/RecyclableWaste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/Ranklist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve10/RegexDemo8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/planewar_jar/planewar.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/planewar_jar/planewar.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/twelve/twelve10/RegexDemo8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/twelve/twelve10/RegexDemo8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/client/PlaneWarClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/ImageUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/common/ImageUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Bullet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/planewar/com/neuedu/planewar/entity/Bullet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/client/PlaneWarClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/client/PlaneWarClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/common/ImageUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/entity/Boss.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/twelve/zhouce1/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/twelve/zhouce1/LoginTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,29 +91,29 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.23244782" />
     <property name="project.structure.side.proportion" value="0.63369966" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\video" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplanej" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bg" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bgs" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.neuedu.planewar.constant" />
-      <recent name="com.test.eleven.eleven29.shitou.pojo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\boss" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bossex" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\enemyplane2" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplanex" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neuedu.planewar.constant" />
+      <recent name="com.test.eleven.eleven29.shitou.pojo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\video" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplanej" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bg" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bgs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -144,13 +128,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PlaneWarClient">
-    <configuration name="PlaneWarClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.neuedu.planewar.client.PlaneWarClient" />
-      <module name="planewar" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.zhouce2.Game" />
+      <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.neuedu.planewar.client.*" />
+          <option name="PATTERN" value="com.test.twelve.zhouce2.Jie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve16.StringBufferDemo5" />
+    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve19.LinkedListDemo" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.twelve.twelve16.*" />
+          <option name="PATTERN" value="com.test.twelve.twelve19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferDemo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve16.StringBufferDemo6" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.zhouce2.Test" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.twelve.twelve16.*" />
+          <option name="PATTERN" value="com.test.twelve.zhouce2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferDemo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve16.StringBufferDemo7" />
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve19.Test1" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.twelve.twelve16.*" />
+          <option name="PATTERN" value="com.test.twelve.twelve19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferDemo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve16.StringBufferDemo8" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve19.Test2" />
       <module name="neuedu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.twelve.twelve16.*" />
+          <option name="PATTERN" value="com.test.twelve.twelve19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PlaneWarClient" />
-        <item itemvalue="Application.StringBufferDemo8" />
-        <item itemvalue="Application.StringBufferDemo7" />
-        <item itemvalue="Application.StringBufferDemo6" />
-        <item itemvalue="Application.StringBufferDemo5" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.LinkedListDemo" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Game" />
+        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +269,17 @@
       <workItem from="1576109801817" duration="13422000" />
       <workItem from="1576147646168" duration="5006000" />
       <workItem from="1576221657546" duration="7000" />
-      <workItem from="1576456163188" duration="15685000" />
+      <workItem from="1576456163188" duration="15725000" />
+      <workItem from="1576544036246" duration="11326000" />
+      <workItem from="1576631716855" duration="1237000" />
+      <workItem from="1576666466537" duration="3547000" />
+      <workItem from="1576720323260" duration="1068000" />
+      <workItem from="1576742419584" duration="10386000" />
+      <workItem from="1576765434900" duration="5020000" />
+      <workItem from="1576800820402" duration="8334000" />
+      <workItem from="1576841236107" duration="1042000" />
+      <workItem from="1577068391839" duration="7172000" />
+      <workItem from="1577089206494" duration="4894000" />
     </task>
     <servers />
   </component>
