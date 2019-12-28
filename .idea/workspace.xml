@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="planewar:jar" />
@@ -7,36 +10,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0b30a1b-04e5-48ff-80a7-0abf3d144b2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test1/Test1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test1/src/Five.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve18/CollectDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve18/CollectionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve18/CollectionDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve18/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve18/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve19/LinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve19/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/twelve19/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/Bin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/BinImpl/HarmfulBin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/BinImpl/KitchenBin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/BinImpl/OtherBin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/BinImpl/RankBin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/BinImpl/RecyclableBin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/Garbage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/GarbageImpl/HarmfulWaste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/GarbageImpl/KitchenWaste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/GarbageImpl/OtherWaste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/GarbageImpl/RecyclableWaste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Jie/Ranklist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce2/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javawebdemo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jlayer_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/test/JDBCDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/test/JDBCTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/test/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/test/JDBCUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/test/PoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/trash/controller/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/trash/dao/UsersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/trash/pojo/Rubbish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/trash/pojo/RubbishCan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/trash/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/trash/service/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/src/com/trash/service/UsersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JDBC/test/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/javawebdemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/resources/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/resources/st.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/src/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/src/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/src/pojo/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/src/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/src/services/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/src/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/src/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/src/utils/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/src/utils/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/test/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/web/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/web/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javawebdemo/web/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/planewar/jlayer-1.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/JLayer_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/neuedu/src/com/test/twelve/zhouce1/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/neuedu/com/test/twelve/zhouce1/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/neuedu/com/test/twelve/zhouce1/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1/src/Five.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test1/src/Five.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planewar/planewar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/planewar/planewar.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +66,7 @@
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="false" />
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
     <option name="SORT_POSITIONED" value="false" />
@@ -79,11 +99,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/planewar/src/com/neuedu/planewar/img/boss" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javawebdemo/web/lib/commons-dbutils-1.7.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,29 +115,29 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.23244782" />
     <property name="project.structure.side.proportion" value="0.63369966" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\boss" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bossex" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo\javawebdemo\web\lib" />
+      <recent name="E:\Github\javademo\javawebdemo\resources" />
+      <recent name="E:\Github\javademo\planewar" />
+      <recent name="E:\Github\javademo\JDBC" />
       <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\enemyplane2" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplanex" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.neuedu.planewar.constant" />
       <recent name="com.test.eleven.eleven29.shitou.pojo" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bullet" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\video" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\myplanej" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bg" />
-      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\bgs" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github\javademo\javawebdemo\resources" />
+      <recent name="E:\Github\javademo\javawebdemo\web\lib" />
+      <recent name="E:\Github\javademo\JDBC" />
+      <recent name="E:\Github\javademo\JDBC\src" />
+      <recent name="E:\Github\javademo\planewar\src\com\neuedu\planewar\img\boss" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -128,79 +152,76 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.zhouce2.Game" />
-      <module name="neuedu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.twelve.zhouce2.Jie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.DemoTest.test10">
+    <configuration name="DemoTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javawebdemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoTest" />
+      <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve19.LinkedListDemo" />
-      <module name="neuedu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.twelve.twelve19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="DemoTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javawebdemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.zhouce2.Test" />
-      <module name="neuedu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.twelve.zhouce2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="DemoTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javawebdemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoTest" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve19.Test1" />
-      <module name="neuedu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.twelve.twelve19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="DemoTest.test8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javawebdemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoTest" />
+      <option name="METHOD_NAME" value="test8" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.twelve.twelve19.Test2" />
-      <module name="neuedu" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.twelve.twelve19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="DemoTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javawebdemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoTest" />
+      <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.LinkedListDemo" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Game" />
-        <item itemvalue="Application.Test1" />
+        <item itemvalue="JUnit.DemoTest.test10" />
+        <item itemvalue="JUnit.DemoTest.test9" />
+        <item itemvalue="JUnit.DemoTest.test8" />
+        <item itemvalue="JUnit.DemoTest.test7" />
+        <item itemvalue="JUnit.DemoTest.test6" />
       </list>
     </recent_temporary>
   </component>
@@ -280,6 +301,13 @@
       <workItem from="1576841236107" duration="1042000" />
       <workItem from="1577068391839" duration="7172000" />
       <workItem from="1577089206494" duration="4894000" />
+      <workItem from="1577149108840" duration="673000" />
+      <workItem from="1577162566069" duration="15167000" />
+      <workItem from="1577239651913" duration="12253000" />
+      <workItem from="1577268762854" duration="3014000" />
+      <workItem from="1577353713204" duration="7758000" />
+      <workItem from="1577405886644" duration="16153000" />
+      <workItem from="1577495429960" duration="7586000" />
     </task>
     <servers />
   </component>

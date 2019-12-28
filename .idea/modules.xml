@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test1/Test1.iml" filepath="$PROJECT_DIR$/Test1/Test1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javademo.iml" filepath="$PROJECT_DIR$/.idea/javademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javawebdemo/javawebdemo.iml" filepath="$PROJECT_DIR$/javawebdemo/javawebdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/neuedu/neuedu.iml" filepath="$PROJECT_DIR$/neuedu/neuedu.iml" />
       <module fileurl="file://$PROJECT_DIR$/planewar/planewar.iml" filepath="$PROJECT_DIR$/planewar/planewar.iml" />
       <module fileurl="file://$PROJECT_DIR$/solar/solar.iml" filepath="$PROJECT_DIR$/solar/solar.iml" />

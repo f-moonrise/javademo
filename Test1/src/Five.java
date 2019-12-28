@@ -18,6 +18,21 @@ public class Five {
         String nameWhite = scanner.nextLine();
 
         //打印棋盘
+        int size = 15;
+        int[][] table = new int [size][size];
+
+        System.out.print("  ");
+        for(int i=0;i<size;i++){
+            int value = i + 1;
+            System.out.print(value < 10 ? value + " " : value + "   ");
+        }
+        System.out.println();
+
+        for(int i = 0; i < size;i++){
+            char title = (char)('A' + i);
+            System.out.print(title + "  ");
+
+        }
 
         //玩游戏
         int win = 0;
