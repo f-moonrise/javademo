@@ -5,5 +5,7 @@ package com.trash.service;
  * @date 2019/12/27 15:24
  */
 public interface UsersService {
-    void register();
+    void register(String uname);
+
+    int updateSort(Integer num);
 }

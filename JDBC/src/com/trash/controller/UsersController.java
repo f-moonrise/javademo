@@ -10,7 +10,14 @@ import com.trash.service.UsersServiceImpl;
 public class UsersController {
     private UsersService us = new UsersServiceImpl();
 
-//    public void register(String uname){
-//        us.register(uname);
-//    }
+    //用户注册
+    public void register(String uname){
+        us.register(uname);
+    }
+
+    //更新用户积分
+    public int updateSort(Integer num){
+        int i = us.updateSort(num);
+        return i;
+    }
 }

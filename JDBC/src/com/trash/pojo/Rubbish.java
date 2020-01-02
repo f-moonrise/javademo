@@ -43,7 +43,7 @@ public class Rubbish {
     }
 
     public void bad(){
-        System.out.println("垃圾");
+        System.out.println("垃圾有危害");
     }
 }
 

@@ -9,7 +9,25 @@ import org.omg.CORBA.INTERNAL;
 public class RubbishCan {
     private Integer id;
     private String rtype;
+    private String rname;
     private Integer rl;
+    private Integer sjlr;
+
+    public String getRname() {
+        return rname;
+    }
+
+    public void setRname(String rname) {
+        this.rname = rname;
+    }
+
+    public Integer getSjlr() {
+        return sjlr;
+    }
+
+    public void setSjlr(Integer sjlr) {
+        this.sjlr = sjlr;
+    }
 
     public Integer getId() {
         return id;
@@ -36,7 +54,7 @@ public class RubbishCan {
     }
 
     public void clRubbish(){
-        System.out.println("垃圾桶");
+        System.out.println("垃圾桶可以处理垃圾");
     }
 
 }

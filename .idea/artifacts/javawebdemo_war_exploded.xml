@@ -7,6 +7,11 @@
         <element id="directory" name="classes">
           <element id="module-output" name="javawebdemo" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-dbutils-1.7" />
+          <element id="file-copy" path="$PROJECT_DIR$/javawebdemo/web/lib/mysql-connector-java-8.0.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/javawebdemo/web/lib/c3p0-0.9.1.2.jar" />
+        </element>
       </element>
     </root>
   </artifact>
